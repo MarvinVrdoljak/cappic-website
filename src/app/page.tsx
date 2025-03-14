@@ -1,5 +1,9 @@
-import LanguageRedirect from '@/components/globals/LanguageRedirect/LanguageRedirect'
+import styles from './page.module.scss'
 
 export default function RootPage() {
-  return <LanguageRedirect />
+  return (
+    <main className={styles.container}>
+      <h1>Coming Soon</h1>
+    </main>
+  )
 }
