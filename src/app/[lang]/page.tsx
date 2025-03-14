@@ -1,6 +1,7 @@
 import { locales, type ValidLocale } from '@/i18n/config'
 import type { Metadata } from 'next'
 import { getDictionary } from '@/i18n/get-dictionary'
+import styles from './page.module.scss'
 
 interface Props {
   params: {
@@ -24,8 +25,9 @@ export default async function Home({ params: { lang } }: Props) {
   const dict = await getDictionary(lang)
 
   return (
-    <main>
-      <h1>{dict.home.welcome}</h1>
+    <main className={styles.container}>
+      <h1 className={styles.title}>{dict.home.welcome}</h1>
+      <p className={styles.description}>{dict.home.description}</p>
     </main>
   )
 }

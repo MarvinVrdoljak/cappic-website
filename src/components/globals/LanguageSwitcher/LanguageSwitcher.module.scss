@@ -1,15 +1,18 @@
 @import '@/styles/_variables.scss';
 
 .switcher {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
+
   display: flex;
   gap: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   padding: 0.5rem;
   border-radius: 0.5rem;
   backdrop-filter: blur(10px);
+  z-index: 1000;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 
   a {
     padding: 0.25rem 0.5rem;
