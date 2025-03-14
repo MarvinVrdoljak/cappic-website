@@ -1,0 +1,26 @@
+{
+  "home": {
+    "welcome": "Willkommen bei Cappic Website",
+    "description": "Ihre moderne Webpräsenz"
+  },
+  "imprint": {
+    "title": "Impressum",
+    "companyInfo": "Angaben gemäß § 5 TMG",
+    "contact": "Kontakt",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "management": "Vertreten durch",
+    "ceo": "Geschäftsführer",
+    "registration": "Registereintrag",
+    "courtRegistration": "Eingetragen im Handelsregister",
+    "court": "Registergericht",
+    "regNumber": "Registernummer",
+    "vatId": "Umsatzsteuer-ID",
+    "vatIdFull": "Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz",
+    "responsible": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV"
+  },
+  "navigation": {
+    "imprint": "Impressum",
+    "home": "Startseite"
+  }
+}

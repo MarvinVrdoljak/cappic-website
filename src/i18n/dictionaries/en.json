@@ -1,0 +1,26 @@
+{
+  "home": {
+    "welcome": "Welcome to Cappic Website",
+    "description": "Your modern web presence"
+  },
+  "imprint": {
+    "title": "Legal Notice",
+    "companyInfo": "Information according to § 5 TMG",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "management": "Represented by",
+    "ceo": "CEO",
+    "registration": "Registration",
+    "courtRegistration": "Registered in the Commercial Register",
+    "court": "Registration Court",
+    "regNumber": "Registration Number",
+    "vatId": "VAT ID",
+    "vatIdFull": "VAT identification number according to §27a Value Added Tax Act",
+    "responsible": "Responsible for content according to § 55 para. 2 RStV"
+  },
+  "navigation": {
+    "imprint": "Legal Notice",
+    "home": "Home"
+  }
+}
