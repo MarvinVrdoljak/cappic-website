@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "YGJZ3Z2BX2.com.cappic.app",
+        "paths": [
+          "/invite/*"
+        ]
+      },
+      {
+        "appID": "YGJZ3Z2BX2.com.cappic.preview",
+        "paths": [
+          "/invite/*"
+        ]
+      }
+    ]
+  }
+}
