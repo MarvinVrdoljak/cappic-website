@@ -16,3 +16,21 @@
     ]
   }
 }
+
+
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["YGJZ3Z2BX2.com.cappic.app", "YGJZ3Z2BX2.com.cappic.preview"],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Matches any URL with a path that starts with /."
+          }
+        ]
+      }
+    ]
+  }
+}
