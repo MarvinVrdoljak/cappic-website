@@ -1,9 +1,5 @@
-import styles from './page.module.scss'
+import { redirect } from 'next/navigation'
 
 export default function RootPage() {
-  return (
-    <main className={styles.container}>
-      <h1>Coming Soon</h1>
-    </main>
-  )
+  redirect('/en')
 }
