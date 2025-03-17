@@ -1,13 +1,13 @@
 @import 'variables';
-@import '../components/globals/Header/Header.module.scss';
+@import '../components/globals/Header/Header.scss';
 
 // Global styles
 :root {
   --max-width: #{$max-width};
   --border-radius: #{$border-radius};
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono',
+    'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono',
+    'Courier New', monospace;
 }
 
 * {
