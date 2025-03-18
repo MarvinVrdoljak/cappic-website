@@ -2,15 +2,15 @@
   "applinks": {
     "details": [
       {
-        "appID": "YGJZ3Z2BX2.com.cappic.app",
-        "paths": [
-          "/invite/*"
-        ]
-      },
-      {
-        "appID": "YGJZ3Z2BX2.com.cappic.preview",
-        "paths": [
-          "/invite/*"
+        "appIDs": [
+          "YGJZ3Z2BX2.com.cappic.app",
+          "YGJZ3Z2BX2.com.cappic.app.preview"
+        ],
+        "components": [
+          {
+            "/": "/invite/*",
+            "comment": "Matches any URL with a path that starts with /invite/."
+          }
         ]
       }
     ]
