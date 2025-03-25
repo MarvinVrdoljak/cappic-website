@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import LangSwitch from '../LangSwitch/LangSwitch'
+import LangSwitch from './LangSwitch'
 
 export default function Header() {
   return (
