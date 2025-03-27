@@ -8,36 +8,18 @@ export default function LangSwitch() {
 
   return (
     <nav>
-      <ul className="language-switch">
-        {/* Links für Sprachwechsel */}
-        <li>
+      <ul className="menu menu--lang">
+        <li className={locale === 'en' ? 'is-active' : ''}>
           <Link href={'/en'} locale="en">
-            <span className={locale === 'en' ? 'active' : ''}>English</span>
+            EN
           </Link>
         </li>
-        <li>
+        <li className={locale === 'de' ? 'is-active' : ''}>
           <Link href={'/de'} locale="de">
-            <span className={locale === 'de' ? 'active' : ''}>Deutsch</span>
+            DE
           </Link>
         </li>
       </ul>
-      <style jsx>{`
-        .language-switch {
-          display: flex;
-          gap: 1rem;
-          list-style: none;
-          padding: 0;
-          margin: 0;
-        }
-        .language-switch a {
-          text-decoration: none;
-          color: inherit;
-        }
-        .language-switch a.active {
-          font-weight: bold;
-          text-decoration: underline;
-        }
-      `}</style>
     </nav>
   )
 }

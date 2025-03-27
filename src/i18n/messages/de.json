@@ -1,5 +1,13 @@
 {
   "Home": {
-    "title": "Deutsch"
+    "hero": {
+      "title": "Coming Soon",
+      "description": "Challenges, die bleiben..."
+    }
+  },
+  "Footer": {
+    "imprint": "Impressum",
+    "privacyPolicy": "Datenschutzerklärung",
+    "TermsAndConditions": "AGB"
   }
 }

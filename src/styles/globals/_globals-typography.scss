@@ -1,0 +1,63 @@
+/**********************************************************************************************************************/
+/* Basic Typography */
+/**********************************************************************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.button,
+.common-text {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-family;
+  line-height: $header-line-height;
+  font-weight: $header-font-weight;
+  margin-top: 0;
+}
+
+h1 {
+  @include font-sizes((small, 36), (medium, 48), (large 58), (xlarge, 80));
+  margin: rem-calc(0 0 20 0);
+  line-height: 1;
+}
+
+h2 {
+  @include font-sizes((small, 38), (medium, 42), (large 50), (xlarge, 62));
+  margin: rem-calc(0 0 20 0);
+}
+
+h3 {
+  @include font-sizes((small, 28), (medium, 32), (large, 36));
+  margin: rem-calc(0 0 12 0);
+}
+
+h4 {
+  @include font-sizes((small, 24), (medium, 28), (large, 32));
+  margin: rem-calc(0 0 12 0);
+}
+
+.common-text,
+p {
+  margin: rem-calc(0 0 20 0);
+}
+
+a {
+  color: $text-color;
+}
+
+b,
+strong {
+  font-weight: 700;
+}

@@ -1,5 +1,13 @@
 {
   "Home": {
-    "title": "Englisch"
+    "hero": {
+      "title": "Coming Soon",
+      "description": "Challenges that remain..."
+    }
+  },
+  "Footer": {
+    "imprint": "Imprint",
+    "privacyPolicy": "Privacy Policy",
+    "TermsAndConditions": "Terms & Conditions"
   }
 }

@@ -1,9 +1,10 @@
+import '@/styles/globals.scss'
+import { Poppins } from 'next/font/google'
 import Providers from './providers'
 import { routing } from '@/i18n/routing'
 import getRequestConfig from '@/i18n/request'
 import Header from '@/components/globals/Header'
-import '@/styles/globals.scss'
-import { Poppins } from 'next/font/google'
+import Footer from '@/components/globals/Footer'
 
 export async function generateStaticParams() {
   return routing.locales.map((locale) => ({
@@ -31,7 +32,8 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
       <Providers messages={localeConfig?.messages as any} locale={localeConfig.locale}>
         <body>
           <Header />
-          {children}
+          <main>{children}</main>
+          <Footer />
         </body>
       </Providers>
     </html>
