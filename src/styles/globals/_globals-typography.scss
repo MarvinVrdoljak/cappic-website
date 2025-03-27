@@ -28,19 +28,31 @@ h6 {
 }
 
 h1 {
-  @include font-sizes((small, 36), (medium, 48), (large 58), (xlarge, 80));
+  @include font-sizes((small, 32), (medium, 42), (large 54), (xlarge, 62));
   margin: rem-calc(0 0 20 0);
   line-height: 1;
 }
 
 h2 {
-  @include font-sizes((small, 38), (medium, 42), (large 50), (xlarge, 62));
-  margin: rem-calc(0 0 20 0);
+  @include font-sizes((small, 24s), (medium, 26), (large 28), (xlarge, 32));
+  margin: rem-calc(0 0 15 0);
+
+  ol + &,
+  ul + &,
+  p + & {
+    margin-top: rem-calc(30);
+  }
 }
 
 h3 {
-  @include font-sizes((small, 28), (medium, 32), (large, 36));
-  margin: rem-calc(0 0 12 0);
+  @include font-sizes((small, 20), (medium, 22), (large, 24));
+  margin: rem-calc(0 0 10 0);
+
+  ol + &,
+  ul + &,
+  p + & {
+    margin-top: rem-calc(30);
+  }
 }
 
 h4 {
@@ -48,6 +60,8 @@ h4 {
   margin: rem-calc(0 0 12 0);
 }
 
+ul,
+ol,
 .common-text,
 p {
   margin: rem-calc(0 0 20 0);
@@ -60,4 +74,9 @@ a {
 b,
 strong {
   font-weight: 700;
+}
+
+ul,
+ol {
+  list-style-position: inside;
 }
