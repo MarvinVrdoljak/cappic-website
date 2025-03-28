@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing'
 import getRequestConfig from '@/i18n/request'
 import Header from '@/components/globals/Header'
 import Footer from '@/components/globals/Footer'
+import { Metadata } from 'next'
 
 export async function generateStaticParams() {
   return routing.locales.map((locale) => ({
@@ -23,6 +24,26 @@ const poppins = Poppins({
   variable: '--font-poppins',
   display: 'swap',
 })
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
+
+  return {
+    title: localeConfig.messages?.metadata?.title || 'Cappic',
+    description: localeConfig.messages?.metadata?.description || 'Cappic - Your Photo App',
+    openGraph: {
+      title: localeConfig.messages?.metadata?.title || 'Cappic',
+      description: localeConfig.messages?.metadata?.description || 'Cappic - Your Photo App',
+      locale: localeConfig.locale,
+      type: 'website',
+    },
+  }
+}
 
 export default async function RootLayout({ children, params }: RootLayoutProps) {
   const { locale } = await params

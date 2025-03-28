@@ -8,6 +8,23 @@
   "Footer": {
     "imprint": "Impressum",
     "privacyPolicy": "Datenschutzerklärung",
-    "TermsAndConditions": "AGB"
+    "TermsAndConditions": "AGB",
+    "followUs": "Folge uns"
+  },
+  "metadata": {
+    "title": "cappic - Challenges, die bleiben.",
+    "description": "cappic ist die App für kreative Foto-Challenges mit Freund:innen & Familie – erstelle persönliche Erlebnisse, halte sie fest.",
+    "imprint": {
+      "title": "Impressum - cappic",
+      "description": "Rechtliche Informationen und Kontaktdaten von cappic"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung - cappic",
+      "description": "Informationen zum Umgang mit Ihren Daten bei cappic"
+    },
+    "terms": {
+      "title": "AGB - cappic",
+      "description": "Allgemeine Geschäftsbedingungen von cappic"
+    }
   }
 }

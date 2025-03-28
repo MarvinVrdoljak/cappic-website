@@ -14,6 +14,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__top">
+          <span className="footer__social-title">
+            <strong>{t('followUs')}</strong>
+          </span>
           <nav>
             <ul className="menu menu--social">
               <li>
