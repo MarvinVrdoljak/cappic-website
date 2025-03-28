@@ -1,0 +1,32 @@
+.footer {
+  @include globalWidth();
+
+  &__inner {
+    background-color: $background-color-soft;
+    padding: rem-calc(40);
+    border-radius: $border-radius-l;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: rem-calc(50);
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: rem-calc(14);
+
+    @include breakpoint(large, down) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  &__byline {
+    @include breakpoint(large, down) {
+      margin-bottom: rem-calc(20);
+    }
+  }
+}
