@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 
 interface RootLayoutProps {
   children: React.ReactNode
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }
 
 const poppins = Poppins({
@@ -25,7 +25,8 @@ const poppins = Poppins({
 })
 
 export default async function RootLayout({ children, params }: RootLayoutProps) {
-  const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(params.locale) })
+  const { locale } = await params
+  const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
 
   return (
     <html lang={localeConfig.locale} className={poppins.variable}>
