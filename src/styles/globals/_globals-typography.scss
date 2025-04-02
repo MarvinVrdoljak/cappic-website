@@ -90,4 +90,8 @@ ol {
 
 .lead {
   font-size: rem-calc(20);
+
+  @include breakpoint(large, down) {
+    font-size: rem-calc(18);
+  }
 }
