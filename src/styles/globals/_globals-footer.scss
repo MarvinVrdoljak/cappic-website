@@ -1,5 +1,6 @@
 .footer {
   @include globalWidth();
+  margin-bottom: rem-calc(25);
 
   &__inner {
     background-color: $background-color-soft;

@@ -16,10 +16,15 @@ body {
   background-color: $background-color;
   color: $text-color;
   font-family: $body-font-family;
+  font-size: $base-font-size;
+
+  @include breakpoint(1600, up) {
+    font-size: calc(#{$base-font-size} + 2px);
+  }
 }
 
 main {
-  padding-top: rem-calc(120);
+  padding-top: rem-calc(100);
 }
 
 .section {

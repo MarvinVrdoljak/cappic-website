@@ -1,11 +1,12 @@
 .header {
   position: fixed;
-  padding: rem-calc(35 0);
+  padding: rem-calc(25 0);
   top: 0;
   right: 0;
   left: 0;
   z-index: 1000;
   background-color: $white-color;
+  height: rem-calc(100);
 
   &__inner {
     display: flex;
@@ -17,8 +18,9 @@
   &__logo {
     display: block;
 
-    svg {
-      width: rem-calc(150);
+    img {
+      width: rem-calc(140);
+      height: auto;
     }
   }
 }
