@@ -80,3 +80,14 @@ ul,
 ol {
   list-style-position: inside;
 }
+
+.label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: rem-calc(5);
+  color: c;
+}
+
+.lead {
+  font-size: rem-calc(20);
+}

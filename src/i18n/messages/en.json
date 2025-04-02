@@ -1,8 +1,9 @@
 {
   "Home": {
     "hero": {
-      "title": "Coming Soon",
-      "description": "Challenges that remain..."
+      "subtitle": "Coming Soon",
+      "title": "Challenges that last.",
+      "description": "Take on exciting challenges with the cappic app and capture your experiences—alone, as a couple, or with friends. Choose your favorite categories, document special moments with photos, and break free from your daily routine!"
     }
   },
   "Footer": {
