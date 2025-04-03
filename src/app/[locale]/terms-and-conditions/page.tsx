@@ -11,15 +11,15 @@ export async function generateMetadata({
   const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
 
   return {
-    title: localeConfig.messages?.metadata?.terms?.title || 'Terms & Conditions - Cappic',
+    title: localeConfig.messages?.metadata?.terms?.title || 'Terms & Conditions - cappic',
     description:
       localeConfig.messages?.metadata?.terms?.description ||
-      'General Terms and Conditions for using Cappic',
+      'General Terms and Conditions for using cappic',
     openGraph: {
-      title: localeConfig.messages?.metadata?.terms?.title || 'Terms & Conditions - Cappic',
+      title: localeConfig.messages?.metadata?.terms?.title || 'Terms & Conditions - cappic',
       description:
         localeConfig.messages?.metadata?.terms?.description ||
-        'General Terms and Conditions for using Cappic',
+        'General Terms and Conditions for using cappic',
       locale: localeConfig.locale,
       type: 'website',
     },

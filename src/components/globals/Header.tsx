@@ -12,7 +12,7 @@ export default function Header() {
     <header className="header">
       <div className="header__inner">
         <Link href={`/`} className="header__logo">
-          <Image src="/logo.svg" alt="Cappic Logo" width={150} height={50} />
+          <Image src="/logo.svg" alt="cappic Logo" width={150} height={50} />
         </Link>
         <LangSwitch />
       </div>

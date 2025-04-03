@@ -34,11 +34,11 @@ export async function generateMetadata({
   const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
 
   return {
-    title: localeConfig.messages?.metadata?.title || 'Cappic',
-    description: localeConfig.messages?.metadata?.description || 'Cappic - Your Photo App',
+    title: localeConfig.messages?.metadata?.title || 'cappic',
+    description: localeConfig.messages?.metadata?.description || 'cappic - Your Photo App',
     openGraph: {
-      title: localeConfig.messages?.metadata?.title || 'Cappic',
-      description: localeConfig.messages?.metadata?.description || 'Cappic - Your Photo App',
+      title: localeConfig.messages?.metadata?.title || 'cappic',
+      description: localeConfig.messages?.metadata?.description || 'cappic - Your Photo App',
       locale: localeConfig.locale,
       type: 'website',
     },

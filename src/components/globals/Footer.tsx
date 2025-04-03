@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
         <div className="footer__bottom">
           <span className="footer__byline">
-            <strong>&copy; {new Date().getFullYear()} Cappic</strong>
+            <strong>&copy; {new Date().getFullYear()} cappic</strong>
           </span>
           <nav>
             <ul className="menu menu--footer">

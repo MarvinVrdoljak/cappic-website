@@ -11,12 +11,12 @@ export async function generateMetadata({
   const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
 
   return {
-    title: localeConfig.messages?.metadata?.privacy?.title || 'Privacy Policy - Cappic',
+    title: localeConfig.messages?.metadata?.privacy?.title || 'Privacy Policy - cappic',
     description:
       localeConfig.messages?.metadata?.privacy?.description ||
       'Information about how we handle your data',
     openGraph: {
-      title: localeConfig.messages?.metadata?.privacy?.title || 'Privacy Policy - Cappic',
+      title: localeConfig.messages?.metadata?.privacy?.title || 'Privacy Policy - cappic',
       description:
         localeConfig.messages?.metadata?.privacy?.description ||
         'Information about how we handle your data',

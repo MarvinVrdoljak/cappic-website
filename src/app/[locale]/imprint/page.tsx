@@ -11,12 +11,12 @@ export async function generateMetadata({
   const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
 
   return {
-    title: localeConfig.messages?.metadata?.imprint?.title || 'Imprint - Cappic',
+    title: localeConfig.messages?.metadata?.imprint?.title || 'Imprint - cappic',
     description:
       localeConfig.messages?.metadata?.imprint?.description ||
       'Legal information and contact details',
     openGraph: {
-      title: localeConfig.messages?.metadata?.imprint?.title || 'Imprint - Cappic',
+      title: localeConfig.messages?.metadata?.imprint?.title || 'Imprint - cappic',
       description:
         localeConfig.messages?.metadata?.imprint?.description ||
         'Legal information and contact details',
