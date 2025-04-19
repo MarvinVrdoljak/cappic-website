@@ -23,6 +23,7 @@ export default function NotFound() {
               ? 'Bitte installiere die cappic App über einen der folgenden Stores.'
               : 'Please install the cappic app via one of the following stores.'
           }
+          staticLocale={language}
         />
       </div>
     </section>

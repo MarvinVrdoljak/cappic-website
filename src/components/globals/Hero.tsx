@@ -7,12 +7,19 @@ export default function Hero({
   title,
   subtitle,
   description,
+  staticLocale,
 }: {
   title: string
   subtitle: string
   description: string
+  staticLocale?: string
 }) {
-  const locale = useLocale()
+  let locale
+  if (staticLocale) {
+    locale = staticLocale
+  } else {
+    locale = useLocale()
+  }
 
   return (
     <section className="hero">
