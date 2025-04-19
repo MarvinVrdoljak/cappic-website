@@ -25,17 +25,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       pathname?.includes('/sign-up')
     ) {
       // Extrahiere den Pfad nach /login/
+      console.log(pathname)
       const deepLink = `cappic-app://${pathname}`
 
       // Versuche, die App über das App-Schema zu öffnen
       window.location.href = deepLink
-
-      // Fallback nach 1.5 Sekunden
-      const timeout = setTimeout(() => {
-        window.location.href = 'https://cappic.app/en'
-      }, 1500)
-
-      return () => clearTimeout(timeout)
     }
   }, [pathname])
 
