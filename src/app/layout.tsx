@@ -4,7 +4,7 @@
 import Header from '@/components/globals/Header'
 import '@/styles/globals.scss'
 import { Poppins } from 'next/font/google'
-import { usePathname } from 'next/navigation'
+import { usePathname, useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
 
 const poppins = Poppins({
@@ -24,11 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       pathname?.includes('/invite') ||
       pathname?.includes('/sign-up')
     ) {
-      // Extrahiere den Pfad nach /login/
-      console.log(pathname)
-      const deepLink = `cappic-app://${pathname}`
+      const hash = window.location.hash
+      const deepLink = `cappic-app://${pathname}${hash}`
 
-      // Versuche, die App über das App-Schema zu öffnen
       window.location.href = deepLink
     }
   }, [pathname])
