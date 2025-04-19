@@ -18,8 +18,8 @@
   },
   "AppNotInstalled": {
     "hero": {
-      "subtitle": "Oops!",
-      "title": "App nicht installiert",
+      "subtitle": "cappic herunterladen",
+      "title": "App nicht installiert?",
       "description": "Bitte installiere die cappic App über einen der folgenden Stores."
     }
   },

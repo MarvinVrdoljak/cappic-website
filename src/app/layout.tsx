@@ -18,7 +18,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const pathname = usePathname()
 
   useEffect(() => {
-    if (pathname?.includes('/login/')) {
+    if (
+      pathname?.includes('/login/') ||
+      pathname?.includes('/reset-password/') ||
+      pathname?.includes('/invite/')
+    ) {
       // Extrahiere den Pfad nach /login/
       console.log(pathname)
       const deepLink = `cappic-app://${pathname}`
@@ -28,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
       // Fallback nach 1.5 Sekunden
       const timeout = setTimeout(() => {
-        window.location.href = 'https://cappic.app/en/app-not-installed'
+        window.location.href = 'https://cappic.app/en'
       }, 1500)
 
       return () => clearTimeout(timeout)
