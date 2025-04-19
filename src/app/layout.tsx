@@ -19,12 +19,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   useEffect(() => {
     if (
-      pathname?.includes('/login/') ||
-      pathname?.includes('/reset-password/') ||
-      pathname?.includes('/invite/')
+      pathname?.includes('/login') ||
+      pathname?.includes('/reset-password') ||
+      pathname?.includes('/invite') ||
+      pathname?.includes('/sign-up')
     ) {
       // Extrahiere den Pfad nach /login/
-      console.log(pathname)
       const deepLink = `cappic-app://${pathname}`
 
       // Versuche, die App über das App-Schema zu öffnen
