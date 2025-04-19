@@ -3,18 +3,24 @@
 import Image from 'next/image'
 import LangSwitch from './LangSwitch'
 import { Link } from '@/i18n/routing'
-import { useLocale } from 'next-intl'
+import NextLink from 'next/link'
 
-export default function Header() {
-  const locale = useLocale()
-
+export default function Header({ root }: { root?: boolean }) {
   return (
     <header className="header">
       <div className="header__inner">
-        <Link href={`/`} className="header__logo">
-          <Image src="/logo.svg" alt="cappic Logo" width={150} height={50} />
-        </Link>
-        <LangSwitch />
+        {root ? (
+          <NextLink href={`/`} className="header__logo">
+            <Image src="/logo.svg" alt="cappic Logo" width={150} height={50} />
+          </NextLink>
+        ) : (
+          <>
+            <Link href={`/`} className="header__logo">
+              <Image src="/logo.svg" alt="cappic Logo" width={150} height={50} />
+            </Link>
+            <LangSwitch />
+          </>
+        )}
       </div>
     </header>
   )

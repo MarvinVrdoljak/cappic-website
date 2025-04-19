@@ -1,4 +1,5 @@
 // "app/layout.tsx"
+import Header from '@/components/globals/Header'
 import '@/styles/globals.scss'
 import { Poppins } from 'next/font/google'
 
@@ -10,5 +11,12 @@ const poppins = Poppins({
 })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html className={poppins.variable}>{children}</html>
+  return (
+    <html className={poppins.variable}>
+      <body>
+        <Header root />
+        <main>{children}</main>
+      </body>
+    </html>
+  )
 }

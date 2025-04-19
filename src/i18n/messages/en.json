@@ -10,6 +10,13 @@
       "description": "Create and complete exciting photo challenges—alone, with friends, family, or your partner. Our app makes capturing and sharing special moments fun and interactive. Get inspired, try something new, and collect valuable memories! Whether it’s fun tasks, creative snapshots, or shared adventures—our challenges help you escape the ordinary and strengthen your relationships."
     }
   },
+  "AppNotInstalled": {
+    "hero": {
+      "subtitle": "Oops!",
+      "title": "App not installed",
+      "description": "Please install the cappic app via one of the following stores."
+    }
+  },
   "Footer": {
     "imprint": "Imprint",
     "privacyPolicy": "Privacy Policy",

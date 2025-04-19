@@ -8,7 +8,11 @@ const Page = () => {
   const t = useTranslations('Home')
   return (
     <>
-      <Hero />
+      <Hero
+        title={t('hero.title')}
+        subtitle={t('hero.subtitle')}
+        description={t('hero.description')}
+      />
       <BlockFullText>
         <h2>{t('introduction.title')}</h2>
         <p className="lead">{t('introduction.description')}</p>

@@ -16,6 +16,13 @@
     "TermsAndConditions": "AGB",
     "followUs": "Folge uns"
   },
+  "AppNotInstalled": {
+    "hero": {
+      "subtitle": "Oops!",
+      "title": "App nicht installiert",
+      "description": "Bitte installiere die cappic App über einen der folgenden Stores."
+    }
+  },
   "metadata": {
     "title": "cappic - Challenges, die bleiben.",
     "description": "cappic ist die App für kreative Foto-Challenges mit Freund:innen & Familie – erstelle persönliche Erlebnisse, halte sie fest.",

@@ -1,20 +1,26 @@
 'use client'
 
-import { useLocale, useTranslations } from 'next-intl'
+import { useLocale } from 'next-intl'
 import Image from 'next/image'
-import CommonDownloadButtons from '../common/CommonDownloadButtons'
 
-export default function Hero() {
-  const t = useTranslations('Home')
+export default function Hero({
+  title,
+  subtitle,
+  description,
+}: {
+  title: string
+  subtitle: string
+  description: string
+}) {
   const locale = useLocale()
 
   return (
     <section className="hero">
       <div className="hero__inner">
         <div className="hero__content">
-          <span className="label">{t('hero.subtitle')}</span>
-          <h1 className="hero__title">{t('hero.title')}</h1>
-          <p className="lead">{t('hero.description')}</p>
+          <span className="label">{subtitle}</span>
+          <h1 className="hero__title">{title}</h1>
+          <p className="lead">{description}</p>
           {/* <CommonDownloadButtons /> */}
         </div>
         <div className="hero__image-wrapper">

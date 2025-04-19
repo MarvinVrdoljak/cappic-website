@@ -54,7 +54,7 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
       <Providers messages={localeConfig?.messages as any} locale={localeConfig.locale}>
         <body>
           <Header />
-          <main>{children}</main>
+          {children}
           <Footer />
         </body>
       </Providers>
