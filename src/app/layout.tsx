@@ -18,16 +18,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const pathname = usePathname()
 
   useEffect(() => {
-    if (
-      pathname?.includes('/login') ||
-      pathname?.includes('/reset-password') ||
-      pathname?.includes('/invite') ||
-      pathname?.includes('/sign-up')
-    ) {
-      const hash = window.location.hash
-      const deepLink = `cappic-app://${pathname}${hash}`
+    if (typeof window !== 'undefined') {
+      if (
+        pathname?.includes('/login') ||
+        pathname?.includes('/reset-password') ||
+        pathname?.includes('/invite') ||
+        pathname?.includes('/sign-up')
+      ) {
+        const hash = window.location.hash
+        const deepLink = `cappic-app://${pathname}${hash}`
 
-      window.location.href = deepLink
+        window.location.href = deepLink
+      }
     }
   }, [pathname])
 
