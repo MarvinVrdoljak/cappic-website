@@ -1,9 +1,20 @@
 'use client'
 
 import { useLocale } from 'next-intl'
+import { useEffect, useState } from 'react'
 
 const ImprintContent = () => {
   const locale = useLocale()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
+
   return (
     <section className="section">
       <div className="grid">

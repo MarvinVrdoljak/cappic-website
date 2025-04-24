@@ -2,9 +2,20 @@
 
 import { Link } from '@/i18n/routing'
 import { useLocale } from 'next-intl'
+import { useEffect, useState } from 'react'
 
 const PrivacyContent = () => {
   const locale = useLocale()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
+
   return (
     <section className="section">
       <div className="grid">
