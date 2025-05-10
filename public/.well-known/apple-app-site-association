@@ -22,6 +22,10 @@
           {
             "/": "/sign-up/*",
             "comment": "Matches any URL with a path that starts with /sign-up/."
+          },
+          {
+            "/": "/auth/callback/*",
+            "comment": "Matches any URL with a path that starts with /auth/callback/."
           }
         ]
       }
