@@ -75,6 +75,25 @@ const PrivacyContent = () => {
               <li>Optional: Alter</li>
             </ul>
             <p>
+              Alternativ ist eine Anmeldung über den Drittanbieter „Google“ (Google OAuth) möglich.
+              In diesem Fall erhalten wir die von Google bereitgestellten Informationen,
+              insbesondere:
+            </p>
+            <ul>
+              <li>Name</li>
+              <li>E-Mail-Adresse</li>
+              <li>Profilbild (optional, je nach Google-Einstellungen)</li>
+            </ul>
+            <p>
+              Die übermittelten Daten werden ausschließlich zur Einrichtung und Verwaltung deines
+              Nutzerkontos in unserer App verwendet. Die Datenverarbeitung erfolgt gemäß Art. 6 Abs.
+              1 lit. b DSGVO (Vertragserfüllung). Weitere Informationen zur Datenverarbeitung durch
+              Google findest du unter:{' '}
+              <a href="https://policies.google.com/privacy" target="_blank">
+                https://policies.google.com/privacy
+              </a>
+            </p>
+            <p>
               Das Nutzerkonto kann jederzeit gelöscht werden. Mit der Löschung werden alle
               personenbezogenen Daten entfernt.
             </p>
@@ -290,20 +309,37 @@ const PrivacyContent = () => {
                 tracking).
               </li>
             </ul>
-
             <h3>2.2 User Account</h3>
-            <p>Registration is required to use the app. We collect the following data:</p>
+            <p>To use the app, registration is required. During this process, we collect:</p>
             <ul>
               <li>Name</li>
               <li>Email address</li>
-              <li>Password (encrypted storage)</li>
+              <li>Password (stored in encrypted form)</li>
               <li>Optional: Age</li>
             </ul>
             <p>
-              The user account can be deleted at any time. Upon deletion, all personal data will be
-              removed.
+              Alternatively and optionally, users can sign in using the third-party provider
+              "Google" (Google OAuth). In this case, we receive the information provided by Google,
+              in particular:
             </p>
-
+            <ul>
+              <li>Name</li>
+              <li>Email address</li>
+              <li>Profile picture (optional, depending on Google settings)</li>
+            </ul>
+            <p>
+              The transmitted data is used exclusively for setting up and managing your user account
+              in our app. Data processing is carried out in accordance with Art. 6(1)(b) GDPR
+              (performance of a contract). For more information on how Google processes your data,
+              please visit:{' '}
+              <a href="https://policies.google.com/privacy" target="_blank">
+                https://policies.google.com/privacy
+              </a>
+            </p>
+            <p>
+              You can delete your user account at any time. Upon deletion, all personal data will be
+              permanently removed.
+            </p>
             <h3>2.3 Uploaded Content</h3>
             <p>
               A user’s avatar image is publicly visible.
