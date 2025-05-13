@@ -11,11 +11,11 @@ export default function DeepLinkHandler() {
       pathname?.includes('/login') ||
       pathname?.includes('/reset-password') ||
       pathname?.includes('/invite') ||
-      pathname?.includes('/sign-up') ||
-      pathname?.includes('/auth/callback')
+      pathname?.includes('/sign-up')
     ) {
       const hash = window.location.hash
       const deepLink = `cappic-app://${pathname}${hash}`
+      console.log('deepLink', deepLink, pathname, hash)
       window.location.href = deepLink
     }
   }, [pathname])
