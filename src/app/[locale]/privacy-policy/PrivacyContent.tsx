@@ -23,7 +23,7 @@ const PrivacyContent = () => {
           <>
             <h1>Datenschutzerklärung</h1>
             <p>
-              <strong>Stand:</strong> März 2025
+              <strong>Stand:</strong> Mai 2025
             </p>
             <p>
               Wir freuen uns über dein Interesse an unserer App und Webseite „cappic“. Der Schutz
@@ -125,11 +125,46 @@ const PrivacyContent = () => {
               personenbezogenen Daten entfernt.
             </p>
             <h3>2.3 Hochgeladene Inhalte</h3>
+            <p>In unserer App können folgende Inhalte hochgeladen werden:</p>
+            <ul>
+              <li>
+                <h4>Profilbilder</h4>
+                <p>
+                  Profilbilder werden auf Supabase Storage gespeichert. Sie sind technisch
+                  öffentlich zugänglich, jedoch in der App nur für Nutzer:innen sichtbar, mit denen
+                  du gemeinsam in einem Deck bist.
+                </p>
+              </li>
+              <li>
+                <h4>Deck-Titelbilder und Challengebilder</h4>
+                <p>
+                  Diese Bilder werden ebenfalls auf Supabase Storage gespeichert und sind nur für
+                  aktive Mitglieder eines gemeinsamen Decks einsehbar. Der Zugriff ist durch
+                  serverseitige Sicherheitsregeln (RLS – Row-Level Security) geschützt und erfolgt
+                  nur nach Authentifizierung über dein Nutzerkonto.
+                </p>
+              </li>
+            </ul>
+            <h4>Speicherung und Infrastruktur</h4>
             <p>
-              Das Avatar-Bild eines Nutzers ist öffentlich sichtbar.
+              Alle gespeicherten Inhalte und personenbezogenen Daten werden über{' '}
+              <strong>Supabase</strong>, einem Backend-as-a-Service-Anbieter, verarbeitet und
+              gespeichert. Für unsere Anwendung wurde ein
+              <strong>Serverstandort in Frankfurt am Main (Deutschland)</strong> gewählt, wodurch
+              die Speicherung innerhalb der EU erfolgt. Supabase nutzt die Infrastruktur von Amazon
+              Web Services (AWS) oder Google Cloud, wobei stets europäische Rechenzentren verwendet
+              werden.
               <br />
-              Bilder, die in den Challenge-Decks hochgeladen werden, sind nur für die Nutzer:innen
-              sichtbar, die an dieser Challenge teilnehmen.
+              <br />
+              Supabase verarbeitet Daten gemäß der DSGVO und bietet entsprechende
+              Standardvertragsklauseln (SCCs) sowie technische und organisatorische Maßnahmen (z. B.
+              Zugriffskontrollen, Verschlüsselung) zum Schutz der gespeicherten Daten an.
+              <br />
+              Weitere Informationen zur Datenverarbeitung durch Supabase findest du hier:
+              <br />
+              <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
+                https://supabase.com/privacy
+              </a>
             </p>
             <h2>3. Speicherung und Löschung von Daten</h2>
             <p>
@@ -142,6 +177,13 @@ const PrivacyContent = () => {
               <br />
               Bestelldaten (Fotobuchkäufe) werden mindestens 6 Jahre gespeichert (steuerliche &
               gesetzliche Aufbewahrungspflichten).
+            </p>
+            <p>
+              Eine Weitergabe deiner personenbezogenen Daten an Dritte erfolgt nur, wenn dies zur
+              Erfüllung vertraglicher Pflichten erforderlich ist (z. B. Zahlungsdienstleister oder
+              Versandpartner), du ausdrücklich eingewilligt hast oder eine gesetzliche Verpflichtung
+              besteht. Eine Übermittlung in Drittländer findet nur unter Einhaltung der gesetzlichen
+              Vorgaben und geeigneter Garantien statt.
             </p>
             <h2>4. Tracking und Analysetools</h2>
             <p>
@@ -241,7 +283,16 @@ const PrivacyContent = () => {
               Eltern und Erziehungsberechtigte sind verantwortlich für die Nutzung durch
               minderjährige Personen.
             </p>
-            <h2>9. Nutzerrechte nach DSGVO</h2>
+
+            <h2>9. Push-Benachrichtigungen</h2>
+            <p>
+              Unsere App kann Push-Benachrichtigungen senden, sofern du beim ersten Start der App
+              zugestimmt hast (Art. 6 Abs. 1 lit. a DSGVO). Du kannst den Empfang von
+              Push-Benachrichtigungen jederzeit in den Systemeinstellungen deines Geräts oder in den
+              App-Einstellungen deaktivieren.
+            </p>
+
+            <h2>10. Nutzerrechte nach DSGVO</h2>
             <p>Nutzer:innen haben folgende Rechte:</p>
             <ul>
               <li>Auskunft über gespeicherte Daten erhalten</li>
@@ -254,7 +305,8 @@ const PrivacyContent = () => {
               Anfragen hierzu können per E-Mail an{' '}
               <a href="mailto:info@cappic.app">info@cappic.app</a> gestellt werden.
             </p>
-            <h2>10. Cookies und lokale Speicherung</h2>
+
+            <h2>11. Cookies und lokale Speicherung</h2>
             <p>
               Unsere Webseite verwendet Cookies zur Analyse und Speicherung von Nutzereinstellungen.
               <br />
@@ -263,13 +315,13 @@ const PrivacyContent = () => {
               Die App nutzt keine eigenen Tracking-Cookies, aber das Betriebssystem kann
               Analysefunktionen enthalten, die deaktiviert werden können.
             </p>
-            <h2>11. Änderungen dieser Datenschutzerklärung</h2>
+            <h2>12. Änderungen dieser Datenschutzerklärung</h2>
             <p>
               Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden, um neue gesetzliche
               Anforderungen oder App-Funktionen zu berücksichtigen. Die aktuelle Version ist
               jederzeit auf unserer Webseite abrufbar.
             </p>
-            <h2>12. Allgemeine Geschäftsbedingungen (AGB)</h2>
+            <h2>13. Allgemeine Geschäftsbedingungen (AGB)</h2>
             <p>
               Die Nutzung der App „cappic“ unterliegt unseren Allgemeinen Geschäftsbedingungen
               (AGB).
@@ -287,13 +339,22 @@ const PrivacyContent = () => {
               Die vollständigen AGB sind jederzeit <Link href="/terms-and-conditions">hier</Link>{' '}
               abrufbar.
             </p>
+            <h2>14. Kontaktaufnahme</h2>
+            <p>
+              Wenn du mit uns Kontakt aufnimmst – z. B. per E-Mail an{' '}
+              <a href="mailto:info@cappic.app">info@cappic.app</a> oder über ein Kontaktformular –,
+              werden deine Angaben (z. B. Name, E-Mail-Adresse, Nachricht) zur Bearbeitung deiner
+              Anfrage und für den Fall von Anschlussfragen gespeichert. Die Datenverarbeitung
+              erfolgt gemäß Art. 6 Abs. 1 lit. b DSGVO (zur Durchführung vorvertraglicher Maßnahmen)
+              oder Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Kommunikation).
+            </p>
           </>
         )}
         {locale === 'en' && (
           <>
             <h1>Privacy Policy</h1>
             <p>
-              <strong>Last updated:</strong> March 2025
+              <strong>Last updated:</strong> May 2025
             </p>
 
             <p>
@@ -393,13 +454,46 @@ const PrivacyContent = () => {
               removed.
             </p>
             <h3>2.3 Uploaded Content</h3>
+            <p>The following types of content can be uploaded in our app:</p>
+            <ul>
+              <li>
+                <h4>Profile Pictures</h4>
+                <p>
+                  Profile pictures are stored on Supabase Storage. While they are technically
+                  publicly accessible, they are only visible within the app to other users with whom
+                  you share a deck.
+                </p>
+              </li>
+              <li>
+                <h4>Deck Cover Images and Challenge Images</h4>
+                <p>
+                  These images are also stored on Supabase Storage and are only accessible to active
+                  members of the same deck. Access is protected by server-side security rules (RLS –
+                  Row-Level Security) and is granted only after authentication via your user
+                  account.
+                </p>
+              </li>
+            </ul>
+            <h4>Storage and Infrastructure</h4>
             <p>
-              A user’s avatar image is publicly visible.
+              All stored content and personal data are processed and stored using{' '}
+              <strong>Supabase</strong>, a backend-as-a-service provider. For our application, we
+              have selected a<strong>server location in Frankfurt am Main (Germany)</strong>,
+              ensuring that all data is stored within the EU. Supabase relies on infrastructure
+              provided by Amazon Web Services (AWS) or Google Cloud, always using European data
+              centres.
               <br />
-              Images uploaded in challenge decks are only visible to users participating in that
-              challenge.
+              <br />
+              Supabase processes data in compliance with the GDPR and implements appropriate
+              Standard Contractual Clauses (SCCs), as well as technical and organisational measures
+              (e.g. access controls, encryption) to safeguard stored data.
+              <br />
+              For more information on how Supabase processes data, please visit:
+              <br />
+              <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
+                https://supabase.com/privacy
+              </a>
             </p>
-
             <h2>3. Data Storage and Deletion</h2>
             <p>
               Data is stored as long as the user account is active.
@@ -411,7 +505,13 @@ const PrivacyContent = () => {
               Order data (photo book purchases) is stored for at least six years due to tax and
               legal retention requirements.
             </p>
-
+            <p>
+              Your personal data will only be shared with third parties if this is necessary to
+              fulfil contractual obligations (e.g. payment service providers or shipping partners),
+              if you have given your explicit consent, or if there is a legal obligation to do so.
+              Any transfer to third countries takes place only in accordance with legal requirements
+              and with appropriate safeguards in place.
+            </p>
             <h2>4. Tracking and Analytics</h2>
             <p>Our app and website use Google Analytics to analyze user behavior.</p>
             <ul>
@@ -502,7 +602,14 @@ const PrivacyContent = () => {
               Parents/guardians are responsible for supervising minors’ app usage.
             </p>
 
-            <h2>9. User Rights under GDPR</h2>
+            <h2>9. Push Notifications</h2>
+            <p>
+              Our app may send push notifications if you have granted permission when first using
+              the app (Art. 6 para. 1 lit. a GDPR). You can disable push notifications at any time
+              in your device settings or within the app's settings.
+            </p>
+
+            <h2>10. User Rights under GDPR</h2>
             <p>Users have the following rights:</p>
             <ul>
               <li>
@@ -526,7 +633,7 @@ const PrivacyContent = () => {
               .
             </p>
 
-            <h2>10. Cookies and Local Storage</h2>
+            <h2>11. Cookies and Local Storage</h2>
             <p>
               Our website uses cookies for analytics and user preference storage.
               <br />
@@ -536,13 +643,13 @@ const PrivacyContent = () => {
               analytics features that can be disabled.
             </p>
 
-            <h2>11. Changes to this Privacy Policy</h2>
+            <h2>12. Changes to this Privacy Policy</h2>
             <p>
               This privacy policy may be updated to reflect new legal requirements or app features.
               The latest version is always available on our website.
             </p>
 
-            <h2>12. Terms & Conditions (T&C)</h2>
+            <h2>13. Terms & Conditions (T&C)</h2>
             <p>
               Using the “cappic” app is subject to our Terms & Conditions (T&C).
               <br />
@@ -557,6 +664,17 @@ const PrivacyContent = () => {
             </ul>
             <p>
               The full T&C can be accessed <Link href="/terms-and-conditions">here</Link>.
+            </p>
+
+            <h3>14. Contact</h3>
+            <p>
+              If you contact us – for example, by email at{' '}
+              <a href="mailto:info@cappic.app">info@cappic.app</a> or via a contact form – the
+              information you provide (e.g. name, email address, message) will be stored for the
+              purpose of processing your enquiry and in case of follow-up questions. The data
+              processing is carried out in accordance with Art. 6 para. 1 lit. b GDPR (for the
+              performance of pre-contractual measures) or Art. 6 para. 1 lit. f GDPR (legitimate
+              interest in communication).
             </p>
           </>
         )}

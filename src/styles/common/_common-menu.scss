@@ -8,7 +8,9 @@
   gap: rem-calc(20);
 
   li {
-    > a {
+    margin: 0;
+
+    >a {
       text-decoration: none;
       font-weight: 700;
     }

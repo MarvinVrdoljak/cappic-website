@@ -23,7 +23,7 @@ const TermsContent = () => {
           <>
             <h1>Allgemeine Geschäftsbedingungen</h1>
             <p>
-              <strong>Stand:</strong> März 2025
+              <strong>Stand:</strong> Mai 2025
             </p>
 
             <h2>1. Geltungsbereich</h2>
@@ -77,14 +77,12 @@ const TermsContent = () => {
             </p>
 
             <h3>4.2 Verbotene Inhalte</h3>
-            <p>
-              Es ist untersagt, Inhalte hochzuladen, die:
-              <br />
-              – Rechte Dritter verletzen (z. B. Urheberrechte).
-              <br />
-              – Gewaltverherrlichend, pornografisch, rassistisch oder diskriminierend sind.
-              <br />– Persönlichkeitsrechte Dritter verletzen.
-            </p>
+            <p>Es ist untersagt, Inhalte hochzuladen, die:</p>
+            <ul>
+              <li>Rechte Dritter verletzen (z. B. Urheberrechte).</li>
+              <li>Gewaltverherrlichend, pornografisch, rassistisch oder diskriminierend sind.</li>
+              <li>Persönlichkeitsrechte Dritter verletzen.</li>
+            </ul>
 
             <h3>4.3 Verhalten</h3>
             <p>
@@ -228,13 +226,46 @@ const TermsContent = () => {
               Sitz des Anbieters, sofern es sich bei dem Nutzer um eine juristische Person oder
               einen Kaufmann handelt.
             </p>
+
+            <h2>11. Nutzungsrechte an Inhalten </h2>
+            <p>
+              Mit dem Hochladen von Inhalten (z. B. Fotos) räumen Nutzer:innen dem Anbieter das
+              nicht-exklusive, räumlich und zeitlich unbegrenzte Recht ein, diese Inhalte im Rahmen
+              der App bereitzustellen, zu vervielfältigen, technisch zu verarbeiten (z. B.
+              Komprimierung, Vorschaubilder) und zur Durchführung von Funktionen (z. B. Deckansicht,
+              Fotobucherstellung) zu nutzen. Eine Veröffentlichung außerhalb der App oder Weitergabe
+              an Dritte erfolgt nicht ohne ausdrückliche Zustimmung.
+            </p>
+
+            <h2>12. Geistiges Eigentum </h2>
+            <p>
+              Alle Inhalte der App „cappic“, einschließlich Logos, Designs, Texte, Software und
+              Funktionen, sind geistiges Eigentum des Anbieters oder seiner Lizenzgeber und dürfen
+              ohne vorherige schriftliche Zustimmung nicht vervielfältigt, verbreitet oder
+              anderweitig verwendet werden.
+            </p>
+
+            <h2>13. Verfügbarkeit </h2>
+            <p>
+              Der Anbieter ist bemüht, die App möglichst unterbrechungsfrei zur Verfügung zu
+              stellen. Es kann jedoch zu temporären Einschränkungen oder Unterbrechungen aufgrund
+              von Wartungsarbeiten, Updates oder technischen Störungen kommen. Ein Anspruch auf
+              ständige Verfügbarkeit besteht nicht.
+            </p>
+
+            <h2>14. Unzulässige Nutzung </h2>
+            <p>
+              Die Nutzung automatisierter Skripte, Bots oder externer Programme zur Steuerung,
+              Analyse oder Manipulation der App ist untersagt. Das Nutzerkonto darf nur von der
+              registrierten Person verwendet werden.
+            </p>
           </>
         )}
         {locale === 'en' && (
           <>
             <h1>Terms & Conditions</h1>
             <p>
-              <strong>Last updated:</strong> March 2025
+              <strong>Last updated:</strong> May 2025
             </p>
 
             <h2>1. Scope</h2>
@@ -423,6 +454,37 @@ const TermsContent = () => {
               <br />
               The place of jurisdiction for disputes related to these T&C is the registered office
               of the provider, if the user is a legal entity or merchant.
+            </p>
+
+            <h2>11. Rights of Use for Uploaded Content</h2>
+            <p>
+              By uploading content (e.g. photos), users grant the provider a non-exclusive,
+              geographically and temporally unrestricted right to make this content available within
+              the app, to reproduce it, to process it technically (e.g. compression, preview
+              images), and to use it for the execution of features (e.g. deck views, photo book
+              creation). Publication outside the app or sharing with third parties will only take
+              place with the user's explicit consent.
+            </p>
+
+            <h2>12. Intellectual Property</h2>
+            <p>
+              All content within the "cappic" app, including logos, designs, texts, software, and
+              functions, is the intellectual property of the provider or its licensors and may not
+              be reproduced, distributed, or otherwise used without prior written permission.
+            </p>
+
+            <h2>13. Availability</h2>
+            <p>
+              The provider endeavours to make the app available without interruptions. However,
+              temporary limitations or outages may occur due to maintenance work, updates, or
+              technical issues. There is no entitlement to continuous availability.
+            </p>
+
+            <h2>14. Prohibited Use</h2>
+            <p>
+              The use of automated scripts, bots, or external programs to control, analyse, or
+              manipulate the app is prohibited. The user account may only be used by the registered
+              individual.
             </p>
           </>
         )}

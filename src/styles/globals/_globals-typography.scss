@@ -79,7 +79,15 @@ strong {
 
 ul,
 ol {
-  list-style-position: inside;
+  margin-left: rem-calc(20);
+
+  li:not(:first-child) {
+
+    >h3,
+    >h4 {
+      margin-top: rem-calc(20);
+    }
+  }
 }
 
 .label {
