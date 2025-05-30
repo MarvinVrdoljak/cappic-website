@@ -2,6 +2,7 @@
 
 import { useLocale } from 'next-intl'
 import Image from 'next/image'
+import CommonDownloadButtons from '../common/CommonDownloadButtons'
 
 export default function Hero({
   title,
@@ -28,7 +29,7 @@ export default function Hero({
           <span className="label">{subtitle}</span>
           <h1 className="hero__title">{title}</h1>
           <p className="lead">{description}</p>
-          {/* <CommonDownloadButtons /> */}
+          <CommonDownloadButtons />
         </div>
         <div className="hero__image-wrapper">
           <Image
