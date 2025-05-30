@@ -29,7 +29,7 @@ export default function Hero({
           <span className="label">{subtitle}</span>
           <h1 className="hero__title">{title}</h1>
           <p className="lead">{description}</p>
-          <CommonDownloadButtons />
+          <CommonDownloadButtons staticLocale={staticLocale} />
         </div>
         <div className="hero__image-wrapper">
           <Image

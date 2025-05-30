@@ -4,8 +4,13 @@ import Link from 'next/link'
 import { useLocale } from 'next-intl'
 import Image from 'next/image'
 
-export default function CommonDownloadButtons() {
-  const locale = useLocale()
+export default function CommonDownloadButtons({ staticLocale }: { staticLocale?: string }) {
+  let locale
+  if (staticLocale) {
+    locale = staticLocale
+  } else {
+    locale = useLocale()
+  }
 
   return (
     <div className="download-buttons">
@@ -15,6 +20,7 @@ export default function CommonDownloadButtons() {
             ? 'https://apps.apple.com/de/app/cappic/id6743133357'
             : 'https://apps.apple.com/de/app/cappic/id6743133357?l=en-GB'
         }
+        target="_blank"
         className="download-buttons__button"
       >
         <Image
@@ -31,6 +37,7 @@ export default function CommonDownloadButtons() {
             : 'https://play.google.com/store/apps/details?id=com.cappic.app'
         }
         className="download-buttons__button"
+        target="_blank"
       >
         <Image
           src={locale === 'de' ? '/download-google-play-de.svg' : '/download-google-play-en.svg'}
