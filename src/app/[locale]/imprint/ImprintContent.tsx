@@ -26,9 +26,9 @@ const ImprintContent = () => {
               <strong>Angaben gemäß § 5 TMG:</strong>
             </p>
             <p>
-              Marvin Vrdoljak
+              Empressia d.o.o
               <br />
-              Einzelunternehmen
+              Zweigniederlassung Deutschland
               <br />
               Diemshoff 38
               <br />
@@ -44,6 +44,14 @@ const ImprintContent = () => {
             </p>
 
             <p>
+              <strong>Registereintrag:</strong>
+              <br />
+              Eingetragen im Handelsregister des Handelsgerichts Split (Kroatien)
+              <br />
+              Registernummer: (HR) 060305839
+            </p>
+
+            <p>
               <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong>
               <br />
               Marvin Vrdoljak
@@ -51,12 +59,6 @@ const ImprintContent = () => {
               Diemshoff 38
               <br />
               48282 Emsdetten
-            </p>
-
-            <p>
-              <strong>Hinweis gemäß § 19 UStG:</strong>
-              <br />
-              Als Kleinunternehmer im Sinne von § 19 UStG wird keine Umsatzsteuer berechnet.
             </p>
           </>
         )}
@@ -68,9 +70,9 @@ const ImprintContent = () => {
               <strong>Information in accordance with Section 5 TMG:</strong>
             </p>
             <p>
-              Marvin Vrdoljak
+              Empressia d.o.o
               <br />
-              Sole Proprietor
+              German Branch Office
               <br />
               Diemshoff 38
               <br />
@@ -86,6 +88,14 @@ const ImprintContent = () => {
             </p>
 
             <p>
+              <strong>Commercial Register Entry:</strong>
+              <br />
+              Registered in the Court Register of the Commercial Court in Split (Croatia)
+              <br />
+              Registration Number: (HR) 060305839
+            </p>
+
+            <p>
               <strong>Responsible for content according to Section 55 (2) RStV:</strong>
               <br />
               Marvin Vrdoljak
@@ -93,12 +103,6 @@ const ImprintContent = () => {
               Diemshoff 38
               <br />
               48282 Emsdetten
-            </p>
-
-            <p>
-              <strong>Note according to Section 19 of the German VAT Act (UStG):</strong>
-              <br />
-              As a small business in accordance with § 19 UStG, no VAT is charged.
             </p>
           </>
         )}

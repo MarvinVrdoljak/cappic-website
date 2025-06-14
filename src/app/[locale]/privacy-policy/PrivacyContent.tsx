@@ -37,13 +37,17 @@ const PrivacyContent = () => {
               ist:
             </p>
             <p>
-              Marvin Vrdoljak
+              Empressia d.o.o.
+              <br />
+              Zweigniederlassung Deutschland
               <br />
               Diemshoff 38
               <br />
               48282 Emsdetten, Deutschland
               <br />
               E-Mail: <a href="mailto:info@cappic.app">info@cappic.app</a>
+              <br />
+              Vertreten durch: Marvin Vrdoljak
             </p>
             <h2>2. Erhebung und Verarbeitung personenbezogener Daten</h2>
             <h3>2.1 Rechtsgrundlagen der Datenverarbeitung</h3>
@@ -369,13 +373,17 @@ const PrivacyContent = () => {
               website is:
             </p>
             <p>
-              Marvin Vrdoljak
+              Empressia d.o.o.
+              <br />
+              German Branch Office
               <br />
               Diemshoff 38
               <br />
               48282 Emsdetten, Germany
               <br />
-              Email: <a href="mailto:info@cappic.app">info@cappic.app</a>
+              E-mail: <a href="mailto:info@cappic.app">info@cappic.app</a>
+              <br />
+              Represented by: Marvin Vrdoljak
             </p>
 
             <h2>2. Collection and Processing of Personal Data</h2>
