@@ -215,69 +215,117 @@ const PrivacyContent = () => {
                 oder Browser-Plugins deaktiviert werden.
               </li>
             </ul>
+
             <h2>5. Zahlung & Bestellungen von Fotobüchern</h2>
-            <p>Mehr Informationen in Kürze.</p>
-            {/* <h3>5.1 Zahlungsabwicklung über Stripe</h3>
-          <p>Für Käufe innerhalb der App nutzen wir den Zahlungsanbieter Stripe.</p>
-          <ul>
-            <li>
-              Zahlungsdaten wie Kreditkartennummern werden nicht von uns gespeichert, sondern direkt
-              von Stripe verarbeitet.
-            </li>
-            <li>
-              Stripe erhebt Zahlungsdaten (z. B. Kreditkarteninformationen, Rechnungsadresse) zur
-              Abwicklung der Transaktionen.
-            </li>
-            <li>
-              Die Verarbeitung dieser Daten erfolgt durch Stripe Payments Europe, Ltd., eine nach
-              DSGVO regulierte Einheit mit Sitz in Irland.
-            </li>
-          </ul>*/}
+
+            <h3>5.1 Zahlungsabwicklung über Stripe / Peecho</h3>
             <p>
-              Weitere Informationen findest du in der Datenschutzerklärung von Stripe:{' '}
-              <a href="https://stripe.com/de/privacy" target="_blank">
-                https://stripe.com/de/privacy
-              </a>
+              Wenn Nutzer:innen ein Fotobuch bestellen, wird die Zahlung über{' '}
+              <strong>Peecho</strong> (oder dessen Zahlungsdienstleister, z. B. Stripe) abgewickelt.
+              <strong>cappic</strong> speichert keine vollständigen Kreditkarten- oder Zahlungsdaten
+              direkt.
             </p>
-            <h3>5.2 Speicherung von Bestelldaten</h3>
+            <ul>
+              <li>
+                Zahlungsdaten (z. B. Kartennummer, Rechnungsadresse) werden von Peecho oder Stripe
+                gemäß deren jeweiligen Datenschutzrichtlinien verarbeitet.
+              </li>
+              <li>
+                Peecho verarbeitet personenbezogene Daten von Kund:innen in Übereinstimmung mit der
+                EU-Datenschutz-Grundverordnung (DSGVO).
+              </li>
+              <li>
+                Weitere Informationen zur Datenverarbeitung durch Stripe finden Sie unter:
+                <a href="https://stripe.com/de/privacy" target="_blank">
+                  https://stripe.com/de/privacy
+                </a>
+                .
+              </li>
+              <li>
+                <strong>cappic</strong> übermittelt an Peecho nur die minimal erforderlichen Daten
+                (z. B. Bestell-ID, Betrag, Name, Nutzerkennung), um die Bestellung zu erstellen und
+                abzuwickeln. Wir selbst fungieren nicht als Zahlungsabwickler.
+              </li>
+            </ul>
+
+            <h3>5.2 Bestelldaten & Speicherung</h3>
             <p>
-              Für steuerliche & rechtliche Zwecke speichern wir Bestelldaten (Artikel, Preis,
-              Rechnungsdetails) für mindestens 6 Jahre.
+              Wir speichern Bestelldaten (z. B. bestelltes Produkt, Preis, Zeitstempel,
+              Nutzerkennung, Rechnungsname und -adresse) zu steuerlichen, buchhalterischen und
+              rechtlichen Zwecken. Diese Daten werden mindestens sechs Jahre aufbewahrt, sofern
+              keine längere gesetzliche Aufbewahrungsfrist besteht.
               <br />
-              Rechnungen können jederzeit per Anfrage an{' '}
-              <a href="mailto:info@cappic.app">info@cappic.app</a> angefordert werden.
+              Nutzer:innen können jederzeit Rechnungen oder Bestellhistorien anfordern, indem sie
+              uns unter
+              <a href="mailto:info@cappic.app">info@cappic.app</a>
+              kontaktieren.
             </p>
-            <h2>6. Versand & Druck von Fotobüchern</h2>
-            <p>Mehr Informationen in Kürze.</p>
-            {/* <h2>6. Versand & Druck von Fotobüchern (Prodigi)</h2>
-          <p>
-            Die Produktion und der Versand der Fotobücher erfolgen durch unseren Partner Prodigi
-            Group Ltd.
-          </p>
-          <p>
-            Dazu werden Bestelldaten (Name, Lieferadresse, bestellte Produkte) an Prodigi
-            weitergegeben.
-            <br />
-            Prodigi verarbeitet diese Daten zur Herstellung & Lieferung der Fotobücher.
-            <br />
-            Die Verarbeitung erfolgt gemäß der Datenschutzrichtlinie von Prodigi:{' '}
-            <a href="https://www.prodigi.com/legal/privacy" target="_blank">
-              https://www.prodigi.com/legal/privacy
-            </a>
-            <br />
-            Falls du Fragen zur Datenverarbeitung durch Prodigi hast, kannst du dich direkt an uns
-            wenden.
-          </p> */}
-            <h2>7. Widerrufsrecht für Fotobücher</h2>
+
+            <h2>6. Versand & Druck der Fotobücher</h2>
+
+            <h3>6.1 Datenweitergabe an Peecho</h3>
             <p>
-              Da Fotobücher individuell angefertigt werden, besteht kein Widerrufsrecht nach
-              Produktionsbeginn.
+              Zur Abwicklung der Bestellung werden die erforderlichen personenbezogenen Daten (Name,
+              Lieferadresse, E-Mail-Adresse und die hochgeladenen Bestelldateien) an
+              <strong>Peecho B.V.</strong> und ggf. deren Druckpartner übermittelt. Diese Daten
+              werden ausschließlich zur Produktion, Verpackung und Lieferung des Fotobuchs
+              verwendet.
+              <br />
+              Weitere Informationen finden Sie in der Datenschutzerklärung von Peecho:
+              <a href="https://www.peecho.com/privacy-policy" target="_blank">
+                https://www.peecho.com/privacy-policy
+              </a>
+              .
             </p>
+
+            <h3>6.2 Dateispeicherung & Nachdrucke</h3>
             <p>
-              Falls ein Fotobuch fehlerhaft oder beschädigt geliefert wird, kontaktiere uns unter{' '}
-              <a href="mailto:info@cappic.app">info@cappic.app</a>, um eine Lösung zu finden.
+              Peecho kann die übermittelten Dateien (z. B. das Fotobuch-PDF und das Coverbild)
+              vorübergehend speichern, um die Produktion oder mögliche Nachdrucke zu ermöglichen.
+              Sobald die Dateien nicht mehr benötigt werden, kann Peecho sie gemäß den eigenen
+              Aufbewahrungsrichtlinien löschen.
+              <br />
+              Siehe hierzu auch die Allgemeinen Geschäftsbedingungen von Peecho:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+              .
             </p>
-            <h2>8. Altersbeschränkung</h2>
+
+            <h3>6.3 Lieferung, Versand & Sendungsverfolgung</h3>
+            <p>
+              Nach Abschluss der Produktion übernimmt Peecho den Versand des Fotobuchs über Post-
+              oder Kurierdienste. Eine Versandbestätigung mit Sendungsverfolgung wird in der Regel
+              direkt von Peecho per E-Mail versendet.
+              <br />
+              Die Lieferzeiten variieren je nach Zielort. Innerhalb Europas beträgt die Lieferzeit
+              in der Regel 2–7 Werktage, außerhalb Europas bis zu 10 Werktage oder länger.
+              <br />
+              Falls Ihre Bestellung nicht innerhalb der erwarteten Zeit eintrifft, wenden Sie sich
+              bitte direkt an den Peecho-Support:
+              <a href="https://support.peecho.com" target="_blank">
+                https://support.peecho.com
+              </a>
+              .
+            </p>
+
+            <h3>6.4 Mängel, Reklamationen & Gewährleistung</h3>
+            <p>
+              Sollte Ihr Fotobuch beschädigt oder fehlerhaft geliefert werden, wenden Sie sich bitte
+              an den Peecho-Support oder schreiben Sie uns an
+              <a href="mailto:info@cappic.app">info@cappic.app</a>, damit wir Sie bei der
+              Reklamation unterstützen können.
+              <br />
+              Zur Bearbeitung einer Reklamation kann Peecho Fotos des Mangels, die Bestellnummer und
+              die Versanddaten anfordern. Je nach Fall stellt Peecho entweder ein Ersatzexemplar
+              bereit oder erstattet den Kaufpreis gemäß den Buyer Terms and Conditions:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+              .
+            </p>
+
+            <h2>7. Altersbeschränkung</h2>
             <p>
               Die Nutzung der App ist ab 12 Jahren erlaubt (je nach App-Store-Richtlinien).
               <br />
@@ -288,7 +336,7 @@ const PrivacyContent = () => {
               minderjährige Personen.
             </p>
 
-            <h2>9. Push-Benachrichtigungen</h2>
+            <h2>8. Push-Benachrichtigungen</h2>
             <p>
               Unsere App kann Push-Benachrichtigungen senden, sofern du beim ersten Start der App
               zugestimmt hast (Art. 6 Abs. 1 lit. a DSGVO). Du kannst den Empfang von
@@ -296,7 +344,7 @@ const PrivacyContent = () => {
               App-Einstellungen deaktivieren.
             </p>
 
-            <h2>10. Nutzerrechte nach DSGVO</h2>
+            <h2>9. Nutzerrechte nach DSGVO</h2>
             <p>Nutzer:innen haben folgende Rechte:</p>
             <ul>
               <li>Auskunft über gespeicherte Daten erhalten</li>
@@ -310,7 +358,7 @@ const PrivacyContent = () => {
               <a href="mailto:info@cappic.app">info@cappic.app</a> gestellt werden.
             </p>
 
-            <h2>11. Cookies und lokale Speicherung</h2>
+            <h2>10. Cookies und lokale Speicherung</h2>
             <p>
               Unsere Webseite verwendet Cookies zur Analyse und Speicherung von Nutzereinstellungen.
               <br />
@@ -319,13 +367,13 @@ const PrivacyContent = () => {
               Die App nutzt keine eigenen Tracking-Cookies, aber das Betriebssystem kann
               Analysefunktionen enthalten, die deaktiviert werden können.
             </p>
-            <h2>12. Änderungen dieser Datenschutzerklärung</h2>
+            <h2>11. Änderungen dieser Datenschutzerklärung</h2>
             <p>
               Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden, um neue gesetzliche
               Anforderungen oder App-Funktionen zu berücksichtigen. Die aktuelle Version ist
               jederzeit auf unserer Webseite abrufbar.
             </p>
-            <h2>13. Allgemeine Geschäftsbedingungen (AGB)</h2>
+            <h2>12. Allgemeine Geschäftsbedingungen (AGB)</h2>
             <p>
               Die Nutzung der App „cappic“ unterliegt unseren Allgemeinen Geschäftsbedingungen
               (AGB).
@@ -343,7 +391,7 @@ const PrivacyContent = () => {
               Die vollständigen AGB sind jederzeit <Link href="/terms-and-conditions">hier</Link>{' '}
               abrufbar.
             </p>
-            <h2>14. Kontaktaufnahme</h2>
+            <h2>13. Kontaktaufnahme</h2>
             <p>
               Wenn du mit uns Kontakt aufnimmst – z. B. per E-Mail an{' '}
               <a href="mailto:info@cappic.app">info@cappic.app</a> oder über ein Kontaktformular –,
@@ -539,69 +587,112 @@ const PrivacyContent = () => {
             </ul>
 
             <h2>5. Payment & Photo Book Orders</h2>
-            <p>More information coming soon.</p>
-            {/* <h3>5.1 Payment Processing via Stripe</h3>
-          <p>For in-app purchases, we use the payment provider Stripe.</p>
-          <ul>
-            <li>
-              Payment details such as credit card numbers are not stored by us but processed
-              directly by Stripe.
-            </li>
-            <li>
-              Stripe collects payment data (e.g., credit card details, billing address) to process
-              transactions.
-            </li>
-            <li>
-              Data processing is handled by Stripe Payments Europe, Ltd., an entity regulated under
-              GDPR in Ireland.
-            </li>
-          </ul>
-          <p>
-            For more information, see Stripe’s Privacy Policy:{' '}
-            <a href="https://stripe.com/privacy" target="_blank">
-              https://stripe.com/privacy
-            </a>
-          </p> */}
 
-            <h3>5.2 Order Data Storage</h3>
+            <h3>5.1 Payment Processing via Stripe / Peecho</h3>
             <p>
-              Order data (items, prices, billing details) is stored for at least six years for tax
-              and legal reasons.
+              When a user orders a photo book, payment is processed by Peecho (or its payment
+              service providers, such as Stripe).
+              <strong>cappic</strong> does not store full credit card or payment credentials
+              directly.
+            </p>
+            <ul>
+              <li>
+                Payment data (e.g. card number, billing address) is handled by Peecho or Stripe in
+                accordance with their respective privacy policies.
+              </li>
+              <li>
+                Peecho processes customers’ personal data in compliance with the EU General Data
+                Protection Regulation (GDPR).
+              </li>
+              <li>
+                For details on Stripe’s data handling and privacy, see:
+                <a href="https://stripe.com/privacy" target="_blank">
+                  https://stripe.com/privacy
+                </a>
+                .
+              </li>
+              <li>
+                <strong>cappic</strong> only transmits the minimal data required to Peecho (e.g.
+                order ID, total amount, buyer name, user identifier) in order to create and fulfil
+                the order. We do not act as a payment processor.
+              </li>
+            </ul>
+
+            <h3>5.2 Order Data & Storage</h3>
+            <p>
+              We store order metadata (e.g. ordered product, price, timestamp, purchaser identifier,
+              billing name and address) in our system for legal, tax, and accounting purposes. This
+              data is retained for at least six years, unless a longer period is required by law.
               <br />
-              Invoices can be requested anytime via{' '}
+              Users may request copies of invoices or order history at any time by contacting
               <a href="mailto:info@cappic.app">info@cappic.app</a>.
             </p>
 
             <h2>6. Shipping & Printing of Photo Books</h2>
-            <p>More information coming soon.</p>
-            {/* <h2>6. Shipping & Printing of Photo Books (Prodigi)</h2>
-          <p>
-            Production and shipping of photo books are handled by our partner Prodigi Group Ltd.
-          </p>
-          <p>
-            Order details (name, shipping address, ordered products) are shared with Prodigi for
-            fulfillment.
-            <br />
-            Prodigi processes these details for production and delivery.
-            <br />
-            Data is processed in accordance with Prodigi’s Privacy Policy:{' '}
-            <a href="https://www.prodigi.com/legal/privacy" target="_blank">
-              https://www.prodigi.com/legal/privacy
-            </a>
-            <br />
-            For questions about data processing by Prodigi, please contact us.
-          </p>
 
-          <h2>7. Right of Withdrawal for Photo Books</h2>
-          <p>
-            Since photo books are custom-made, no withdrawal rights apply once production begins.
-          </p>
-          <p>
-            If a photo book arrives damaged or defective, please contact us at{' '}
-            <a href="mailto:info@cappic.app">info@cappic.app</a> for a solution.
-          </p> */}
+            <h3>6.1 Data Sharing with Peecho</h3>
+            <p>
+              To fulfil your order, we share the necessary personal data (name, shipping address,
+              email, and order file content) with <strong>Peecho B.V.</strong> and, where
+              applicable, its printing partners. This information is used solely for the production,
+              packaging, and delivery of your photo book.
+              <br />
+              For details, please refer to Peecho’s Privacy Policy:
+              <a href="https://www.peecho.com/privacy-policy" target="_blank">
+                https://www.peecho.com/privacy-policy
+              </a>
+              .
+            </p>
 
-            <h2>8. Age Restrictions</h2>
+            <h3>6.2 File Retention & Reprints</h3>
+            <p>
+              Peecho may temporarily store submitted files (such as the photo book PDF and cover
+              image) to enable production or potential reprints. Once files are no longer required,
+              Peecho may delete them at its discretion, in accordance with its own data retention
+              practices.
+              <br />
+              See also Peecho’s Terms and Conditions:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+              .
+            </p>
+
+            <h3>6.3 Delivery, Shipping & Tracking</h3>
+            <p>
+              After production, Peecho arranges shipment of the photo book via postal or courier
+              services. A shipping confirmation email, including tracking details, is usually sent
+              directly by Peecho.
+              <br />
+              Delivery times vary depending on the destination. Within Europe, deliveries generally
+              take 2–7 business days, while shipments outside Europe may take up to 10 business days
+              or longer.
+              <br />
+              If your order has not arrived within the expected timeframe, please contact Peecho
+              support directly for assistance:
+              <a href="https://support.peecho.com" target="_blank">
+                https://support.peecho.com
+              </a>
+              .
+            </p>
+
+            <h3>6.4 Defects, Complaints & Warranty Claims</h3>
+            <p>
+              If your photo book arrives damaged or defective, please contact Peecho’s support team
+              or email us at
+              <a href="mailto:info@cappic.app">info@cappic.app</a>
+              so we can assist you in resolving the issue.
+              <br />
+              To process a complaint, Peecho may require photos of the defect, your order number,
+              and the shipping details. Depending on the situation, Peecho may provide a replacement
+              or a refund in accordance with its Buyer Terms and Conditions:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+              .
+            </p>
+
+            <h2>7. Age Restrictions</h2>
             <p>
               The app is available for users aged 12+ (subject to app store policies).
               <br />
@@ -610,14 +701,14 @@ const PrivacyContent = () => {
               Parents/guardians are responsible for supervising minors’ app usage.
             </p>
 
-            <h2>9. Push Notifications</h2>
+            <h2>8. Push Notifications</h2>
             <p>
               Our app may send push notifications if you have granted permission when first using
               the app (Art. 6 para. 1 lit. a GDPR). You can disable push notifications at any time
               in your device settings or within the app's settings.
             </p>
 
-            <h2>10. User Rights under GDPR</h2>
+            <h2>9. User Rights under GDPR</h2>
             <p>Users have the following rights:</p>
             <ul>
               <li>
@@ -641,7 +732,7 @@ const PrivacyContent = () => {
               .
             </p>
 
-            <h2>11. Cookies and Local Storage</h2>
+            <h2>10. Cookies and Local Storage</h2>
             <p>
               Our website uses cookies for analytics and user preference storage.
               <br />
@@ -651,13 +742,13 @@ const PrivacyContent = () => {
               analytics features that can be disabled.
             </p>
 
-            <h2>12. Changes to this Privacy Policy</h2>
+            <h2>11. Changes to this Privacy Policy</h2>
             <p>
               This privacy policy may be updated to reflect new legal requirements or app features.
               The latest version is always available on our website.
             </p>
 
-            <h2>13. Terms & Conditions (T&C)</h2>
+            <h2>12. Terms & Conditions (T&C)</h2>
             <p>
               Using the “cappic” app is subject to our Terms & Conditions (T&C).
               <br />
@@ -674,7 +765,7 @@ const PrivacyContent = () => {
               The full T&C can be accessed <Link href="/terms-and-conditions">here</Link>.
             </p>
 
-            <h3>14. Contact</h3>
+            <h3>13. Contact</h3>
             <p>
               If you contact us – for example, by email at{' '}
               <a href="mailto:info@cappic.app">info@cappic.app</a> or via a contact form – the

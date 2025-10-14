@@ -97,59 +97,94 @@ const TermsContent = () => {
             </p>
 
             <h2>5. Käufe von Fotobüchern</h2>
+
             <h3>5.1 Angebot & Vertragsabschluss</h3>
             <p>
-              Der Kauf von Fotobüchern erfolgt über die App.
+              Der Kauf von Fotobüchern erfolgt über die App <strong>cappic</strong>. Nach der
+              Erstellung eines Fotobuchs wird der Bestellprozess über unseren Druck- und
+              Vertriebspartner <strong>Peecho B.V.</strong> (
+              <a href="https://www.peecho.com" target="_blank">
+                www.peecho.com
+              </a>
+              ) abgewickelt.
               <br />
-              Ein Kaufvertrag kommt zustande, sobald die Bestellung per E-Mail bestätigt wird. Der
-              Anbieter kann eine Bestellung ohne Angabe von Gründen ablehnen.
+              Die Bestellung erfolgt über ein in die App eingebettetes Bestellformular von Peecho.
+              Nutzer:innen geben dort ihre Lieferadresse an und schließen den Kauf direkt mit Peecho
+              B.V. ab.
+              <br />
+              Mit Abschluss der Bestellung und Erhalt der Bestellbestätigung per E-Mail von Peecho
+              kommt der Kaufvertrag ausschließlich zwischen der/dem Nutzer:in und Peecho B.V.
+              zustande.
+              <br />
+              <strong>cappic</strong> fungiert hierbei lediglich als technischer Vermittler und ist
+              nicht Verkäufer oder Vertragspartner im Sinne des Kaufvertrags.
+              <br />
+              Es gelten zusätzlich die Allgemeinen Geschäftsbedingungen von Peecho B.V., einsehbar
+              unter:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
             </p>
 
-            {/*
-          <h3>5.2 Preise & Zahlung</h3>
-          <p>
-            Alle Preise verstehen sich inklusive der gesetzlichen Mehrwertsteuer.
-            <br />
-            Die Zahlung erfolgt über Stripe. Es gelten die Bedingungen von Stripe:{' '}
-            <a href="https://stripe.com/de/privacy" target="_blank">
-              https://stripe.com/de/privacy
-            </a>
-          </p>
+            <h3>5.2 Preise & Zahlung</h3>
+            <p>
+              Alle Preise werden von Peecho im Rahmen des Bestellvorgangs angezeigt und verstehen
+              sich inklusive der gesetzlichen Mehrwertsteuer, sofern nicht anders angegeben.
+              <br />
+              Die Zahlung erfolgt ausschließlich über die von Peecho angebotenen Zahlungsmethoden
+              (z. B. Kreditkarte, PayPal oder andere über Stripe oder Partnerdienste bereitgestellte
+              Zahlungsanbieter).
+              <br />
+              Es gelten die Zahlungsbedingungen und Datenschutzbestimmungen von Peecho sowie
+              gegebenenfalls der jeweiligen Zahlungsdienstleister:
+              <a href="https://stripe.com/de/privacy" target="_blank">
+                https://stripe.com/de/privacy
+              </a>
+            </p>
 
-          <h3>5.3 Produktion & Versand</h3>
-          <p>
-            Die Fotobücher werden von Prodigi produziert und versandt.
-            <br />
-            Die Produktionszeit beträgt 1–4 Werktage, die Versanddauer variiert je nach
-            Lieferadresse.
-            <br />
-            <a href="https://www.prodigi.com/de/faq/shipping/" target="_blank">
-              https://www.prodigi.com/de/faq/shipping/
-            </a>
-          </p>
+            <h3>5.3 Produktion & Versand</h3>
+            <p>
+              Die Produktion und der Versand der Fotobücher erfolgen durch Peecho oder deren
+              Produktionspartner. Die Produktionszeit beträgt in der Regel 1–4 Werktage. Die
+              Versanddauer variiert je nach Lieferadresse und Versandart.
+              <br />
+              Detaillierte Informationen zu Versandzeiten und -kosten finden Sie auf der Webseite
+              von Peecho unter:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+            </p>
 
-          <h3>5.4 Lieferverzögerungen & Erstattungen</h3>
-          <p>
-            Die angegebenen Lieferzeiten sind unverbindlich. Falls sich die Lieferung um mehr als 14
-            Tage verzögert, können Nutzer:innen vom Kauf zurücktreten und erhalten eine vollständige
-            Erstattung.
-            <br />
-            Falls eine Zustellung aufgrund falscher Adressangaben nicht möglich ist, erfolgt keine
-            Rückerstattung.
-          </p>
+            <h3>5.4 Lieferverzögerungen & Erstattungen</h3>
+            <p>
+              Die angegebenen Lieferzeiten sind unverbindlich. Verzögerungen, die auf Umstände
+              außerhalb des Einflussbereichs von cappic oder Peecho zurückzuführen sind (z. B. Zoll,
+              Transportverzögerungen, höhere Gewalt), begründen keinen Anspruch auf Schadenersatz.
+              <br />
+              Falls sich die Lieferung um mehr als 14 Tage über die angegebene Lieferzeit hinaus
+              verzögert, können Käufer:innen sich direkt an Peecho wenden, um eine Klärung oder
+              Erstattung zu veranlassen.
+              <br />
+              Eine Erstattung erfolgt ausschließlich gemäß den Rückerstattungsrichtlinien von
+              Peecho.
+            </p>
 
-          <h3>5.5 Rückgabe & Reklamation</h3>
-          <p>
-            Da Fotobücher individuell angefertigt werden, besteht kein Widerrufsrecht nach Beginn
-            der Produktion.
-            <br />
-            Falls ein Fotobuch fehlerhaft oder beschädigt geliefert wird, kontaktieren Sie uns unter{' '}
-            <a href="mailto:info@cappic.app">info@cappic.app</a>, um eine Lösung zu finden.
-            <br />
-            <a href="https://www.prodigi.com/de/faq/shipping/" target="_blank">
-              https://www.prodigi.com/de/faq/shipping/
-            </a>
-          </p> */}
+            <h3>5.5 Rückgabe & Reklamation</h3>
+            <p>
+              Da Fotobücher individuell nach Kundenvorgaben angefertigt werden, besteht kein
+              Widerrufsrecht nach Beginn der Produktion (§ 312g Abs. 2 Nr. 1 BGB).
+              <br />
+              Sollte ein Fotobuch fehlerhaft oder beschädigt geliefert werden, können Nutzer:innen
+              sich direkt an den Peecho-Support wenden oder uns unter
+              <a href="mailto:info@cappic.app">info@cappic.app</a>
+              kontaktieren, damit wir die Reklamation weiterleiten.
+              <br />
+              Die Bearbeitung von Reklamationen, Ersatzlieferungen oder Erstattungen erfolgt
+              ausschließlich über Peecho gemäß deren Bedingungen:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+            </p>
 
             <h2>6. Haftung</h2>
             <h3>6.1 Inhalte</h3>
@@ -337,55 +372,91 @@ const TermsContent = () => {
               violations of these rules.
             </p>
 
-            <h2>5. Purchase of Photo Books</h2>
-            <h3>5.1 Offer & Contract Formation</h3>
+            <h2>5. Purchases of Photo Books</h2>
+
+            <h3>5.1 Offer & Conclusion of Contract</h3>
             <p>
-              Purchases of photo books are made through the app.
-              <br />A purchase contract is formed once the order is confirmed via email. We reserve
-              the right to decline orders without providing a reason.
+              Purchases of photo books are made via the <strong>cappic</strong> app. After creating
+              a photo book, the ordering process is handled by our printing and fulfilment partner{' '}
+              <strong>Peecho B.V.</strong> (
+              <a href="https://www.peecho.com" target="_blank">
+                www.peecho.com
+              </a>
+              ).
+              <br />
+              The order is placed through an order form (iFrame) embedded in the app and operated by
+              Peecho. Users enter their delivery details and complete the purchase directly with
+              Peecho B.V.
+              <br />
+              The sales contract is concluded exclusively between the user and Peecho B.V. upon
+              completion of the order and receipt of the order confirmation email from Peecho.
+              <br />
+              <strong>cappic</strong> acts solely as a technical intermediary and is not the seller
+              or contractual partner within the meaning of the purchase contract.
+              <br />
+              In addition, the Buyer Terms and Conditions of Peecho B.V. apply and can be found at:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
             </p>
-            {/*
-          <h3>5.2 Prices & Payment</h3>
-          <p>
-            All prices include applicable value-added tax (VAT).
-            <br />
-            Payments are processed via Stripe. Stripe’s terms apply:{' '}
-            <a href="https://stripe.com/privacy" target="_blank">
-              https://stripe.com/privacy
-            </a>
-          </p>
 
-          <h3>5.3 Production & Shipping</h3>
-          <p>
-            Photo books are produced and shipped by Prodigi.
-            <br />
-            Production takes 1–4 business days, shipping times vary based on the delivery address.
-            <br />
-            <a href="https://www.prodigi.com/faq/shipping/" target="_blank">
-              https://www.prodigi.com/faq/shipping/
-            </a>
-          </p>
+            <h3>5.2 Prices & Payment</h3>
+            <p>
+              All prices are displayed by Peecho during the order process and include statutory VAT
+              unless otherwise stated.
+              <br />
+              Payment is made exclusively via the payment methods offered by Peecho (e.g. credit
+              card, PayPal or other payment services provided via Stripe or partner providers).
+              <br />
+              The payment terms and privacy policies of Peecho and, where applicable, the respective
+              payment service providers apply:
+              <a href="https://stripe.com/privacy" target="_blank">
+                https://stripe.com/privacy
+              </a>
+            </p>
 
-          <h3>5.4 Delivery Delays & Refunds</h3>
-          <p>
-            Stated delivery times are non-binding. If delivery is delayed by more than 14 days,
-            users may cancel the purchase and receive a full refund.
-            <br />
-            No refunds will be issued for delivery failures caused by incorrect shipping addresses.
-          </p>
+            <h3>5.3 Production & Shipping</h3>
+            <p>
+              Production and shipping of the photo books are carried out by Peecho or its production
+              partners. The production time is usually 1–4 working days. Delivery times vary
+              depending on the delivery address and shipping method.
+              <br />
+              Detailed information about shipping times and costs can be found on Peecho’s website
+              at:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+            </p>
 
-          <h3>5.5 Returns & Complaints</h3>
-          <p>
-            As photo books are custom-made, there is no right of withdrawal once production has
-            started.
-            <br />
-            If a photo book arrives damaged or defective, contact us at{' '}
-            <a href="mailto:info@cappic.app">info@cappic.app</a> for a resolution.
-            <br />
-            <a href="https://www.prodigi.com/faq/shipping/" target="_blank">
-              https://www.prodigi.com/faq/shipping/
-            </a>
-          </p> */}
+            <h3>5.4 Delivery Delays & Refunds</h3>
+            <p>
+              The stated delivery times are non-binding. Delays caused by circumstances beyond the
+              control of cappic or Peecho (e.g. customs delays, transport issues, force majeure) do
+              not entitle the buyer to claim damages.
+              <br />
+              If delivery is delayed by more than 14 days beyond the estimated delivery period,
+              buyers may contact Peecho directly to request clarification or a refund.
+              <br />
+              Refunds are processed exclusively in accordance with Peecho’s refund policy.
+            </p>
+
+            <h3>5.5 Returns & Complaints</h3>
+            <p>
+              As photo books are individually produced according to customer specifications, there
+              is no right of withdrawal once production has started (Section 312g (2) No. 1 of the
+              German Civil Code – BGB).
+              <br />
+              If a photo book is delivered defective or damaged, users may contact Peecho’s customer
+              support directly or email us at
+              <a href="mailto:info@cappic.app">info@cappic.app</a>
+              so that we can forward the complaint.
+              <br />
+              All complaints, replacements or refunds are handled exclusively by Peecho in
+              accordance with their terms and conditions:
+              <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
+                https://www.peecho.com/buyer-terms-conditions
+              </a>
+            </p>
 
             <h2>6. Liability</h2>
             <h3>6.1 Content</h3>

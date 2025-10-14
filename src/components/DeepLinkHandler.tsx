@@ -1,6 +1,7 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
+// import { usePathname } from '@/i18n/routing'
 import { useEffect } from 'react'
 
 export default function DeepLinkHandler() {
