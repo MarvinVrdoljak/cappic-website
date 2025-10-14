@@ -7,6 +7,8 @@ import { useEffect } from 'react'
 export default function DeepLinkHandler() {
   const pathname = usePathname()
 
+  console.log('DeepLinkHandler: ', pathname)
+
   useEffect(() => {
     if (
       pathname?.includes('/login') ||

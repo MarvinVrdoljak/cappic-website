@@ -5,7 +5,6 @@ import { routing } from '@/i18n/routing'
 import getRequestConfig from '@/i18n/request'
 import Header from '@/components/globals/Header'
 import Footer from '@/components/globals/Footer'
-import DeepLinkHandler from '@/components/DeepLinkHandler'
 import { Metadata } from 'next'
 
 export async function generateStaticParams() {
@@ -54,7 +53,6 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
     <html lang={localeConfig.locale} className={poppins.variable}>
       <Providers messages={localeConfig?.messages as any} locale={localeConfig.locale}>
         <body>
-          <DeepLinkHandler />
           <Header />
           {children}
           <Footer />

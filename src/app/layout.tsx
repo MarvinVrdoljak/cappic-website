@@ -1,5 +1,6 @@
 import '@/styles/globals.scss'
 import { Poppins } from 'next/font/google'
+import DeepLinkHandler from '@/components/DeepLinkHandler'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -11,7 +12,10 @@ const poppins = Poppins({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={poppins.variable}>
-      <body>{children}</body>
+      <body>
+        <DeepLinkHandler />
+        {children}
+      </body>
     </html>
   )
 }
