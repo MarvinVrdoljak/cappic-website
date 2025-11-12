@@ -88,7 +88,7 @@ const PrivacyContent = () => {
               <li>Profilbild (optional, je nach Google-Einstellungen)</li>
             </ul>
             <p>
-              Weitere Informationen zur Datenverarbeitung durch Google findest du unter:
+              Weitere Informationen zur Datenverarbeitung durch Google findest du unter:{' '}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -110,7 +110,7 @@ const PrivacyContent = () => {
               <li>Name (nur bei der erstmaligen Anmeldung übermittelt, sofern angegeben)</li>
             </ul>
             <p>
-              Weitere Informationen zur Datenverarbeitung durch Apple findest du unter:
+              Weitere Informationen zur Datenverarbeitung durch Apple findest du unter:{' '}
               <a
                 href="https://www.apple.com/legal/privacy/de-ww/"
                 target="_blank"
@@ -164,8 +164,7 @@ const PrivacyContent = () => {
               Standardvertragsklauseln (SCCs) sowie technische und organisatorische Maßnahmen (z. B.
               Zugriffskontrollen, Verschlüsselung) zum Schutz der gespeicherten Daten an.
               <br />
-              Weitere Informationen zur Datenverarbeitung durch Supabase findest du hier:
-              <br />
+              Weitere Informationen zur Datenverarbeitung durch Supabase findest du hier: <br />
               <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
                 https://supabase.com/privacy
               </a>
@@ -235,7 +234,7 @@ const PrivacyContent = () => {
                 EU-Datenschutz-Grundverordnung (DSGVO).
               </li>
               <li>
-                Weitere Informationen zur Datenverarbeitung durch Stripe finden Sie unter:
+                Weitere Informationen zur Datenverarbeitung durch Stripe finden Sie unter:{' '}
                 <a href="https://stripe.com/de/privacy" target="_blank">
                   https://stripe.com/de/privacy
                 </a>
@@ -256,8 +255,7 @@ const PrivacyContent = () => {
               keine längere gesetzliche Aufbewahrungsfrist besteht.
               <br />
               Nutzer:innen können jederzeit Rechnungen oder Bestellhistorien anfordern, indem sie
-              uns unter
-              <a href="mailto:info@cappic.app">info@cappic.app</a>
+              uns unter <a href="mailto:info@cappic.app">info@cappic.app</a>
               kontaktieren.
             </p>
 
@@ -271,7 +269,7 @@ const PrivacyContent = () => {
               werden ausschließlich zur Produktion, Verpackung und Lieferung des Fotobuchs
               verwendet.
               <br />
-              Weitere Informationen finden Sie in der Datenschutzerklärung von Peecho:
+              Weitere Informationen finden Sie in der Datenschutzerklärung von Peecho:{' '}
               <a href="https://www.peecho.com/privacy-policy" target="_blank">
                 https://www.peecho.com/privacy-policy
               </a>
@@ -285,7 +283,7 @@ const PrivacyContent = () => {
               Sobald die Dateien nicht mehr benötigt werden, kann Peecho sie gemäß den eigenen
               Aufbewahrungsrichtlinien löschen.
               <br />
-              Siehe hierzu auch die Allgemeinen Geschäftsbedingungen von Peecho:
+              Siehe hierzu auch die Allgemeinen Geschäftsbedingungen von Peecho:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -302,7 +300,7 @@ const PrivacyContent = () => {
               in der Regel 2–7 Werktage, außerhalb Europas bis zu 10 Werktage oder länger.
               <br />
               Falls Ihre Bestellung nicht innerhalb der erwarteten Zeit eintrifft, wenden Sie sich
-              bitte direkt an den Peecho-Support:
+              bitte direkt an den Peecho-Support:{' '}
               <a href="https://support.peecho.com" target="_blank">
                 https://support.peecho.com
               </a>
@@ -312,13 +310,13 @@ const PrivacyContent = () => {
             <h3>6.4 Mängel, Reklamationen & Gewährleistung</h3>
             <p>
               Sollte Ihr Fotobuch beschädigt oder fehlerhaft geliefert werden, wenden Sie sich bitte
-              an den Peecho-Support oder schreiben Sie uns an
+              an den Peecho-Support oder schreiben Sie uns an{' '}
               <a href="mailto:info@cappic.app">info@cappic.app</a>, damit wir Sie bei der
               Reklamation unterstützen können.
               <br />
               Zur Bearbeitung einer Reklamation kann Peecho Fotos des Mangels, die Bestellnummer und
               die Versanddaten anfordern. Je nach Fall stellt Peecho entweder ein Ersatzexemplar
-              bereit oder erstattet den Kaufpreis gemäß den Buyer Terms and Conditions:
+              bereit oder erstattet den Kaufpreis gemäß den Buyer Terms and Conditions:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -469,7 +467,7 @@ const PrivacyContent = () => {
               <li>Profile picture (optional, depending on your Google settings)</li>
             </ul>
             <p>
-              For more information on how Google processes data, please visit:
+              For more information on how Google processes data, please visit:{' '}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -491,7 +489,7 @@ const PrivacyContent = () => {
               <li>Name (only provided during initial sign-in, if shared)</li>
             </ul>
             <p>
-              For more information on how Apple processes data, please visit:
+              For more information on how Apple processes data, please visit:{' '}
               <a
                 href="https://www.apple.com/legal/privacy/de-ww/"
                 target="_blank"
@@ -544,8 +542,7 @@ const PrivacyContent = () => {
               Standard Contractual Clauses (SCCs), as well as technical and organisational measures
               (e.g. access controls, encryption) to safeguard stored data.
               <br />
-              For more information on how Supabase processes data, please visit:
-              <br />
+              For more information on how Supabase processes data, please visit: <br />
               <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
                 https://supabase.com/privacy
               </a>
@@ -605,7 +602,7 @@ const PrivacyContent = () => {
                 Protection Regulation (GDPR).
               </li>
               <li>
-                For details on Stripe’s data handling and privacy, see:
+                For details on Stripe's data handling and privacy, see:{' '}
                 <a href="https://stripe.com/privacy" target="_blank">
                   https://stripe.com/privacy
                 </a>
@@ -624,7 +621,7 @@ const PrivacyContent = () => {
               billing name and address) in our system for legal, tax, and accounting purposes. This
               data is retained for at least six years, unless a longer period is required by law.
               <br />
-              Users may request copies of invoices or order history at any time by contacting
+              Users may request copies of invoices or order history at any time by contacting{' '}
               <a href="mailto:info@cappic.app">info@cappic.app</a>.
             </p>
 
@@ -637,7 +634,7 @@ const PrivacyContent = () => {
               applicable, its printing partners. This information is used solely for the production,
               packaging, and delivery of your photo book.
               <br />
-              For details, please refer to Peecho’s Privacy Policy:
+              For details, please refer to Peecho's Privacy Policy:{' '}
               <a href="https://www.peecho.com/privacy-policy" target="_blank">
                 https://www.peecho.com/privacy-policy
               </a>
@@ -651,7 +648,7 @@ const PrivacyContent = () => {
               Peecho may delete them at its discretion, in accordance with its own data retention
               practices.
               <br />
-              See also Peecho’s Terms and Conditions:
+              See also Peecho's Terms and Conditions:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -669,7 +666,7 @@ const PrivacyContent = () => {
               or longer.
               <br />
               If your order has not arrived within the expected timeframe, please contact Peecho
-              support directly for assistance:
+              support directly for assistance:{' '}
               <a href="https://support.peecho.com" target="_blank">
                 https://support.peecho.com
               </a>
@@ -678,14 +675,13 @@ const PrivacyContent = () => {
 
             <h3>6.4 Defects, Complaints & Warranty Claims</h3>
             <p>
-              If your photo book arrives damaged or defective, please contact Peecho’s support team
-              or email us at
-              <a href="mailto:info@cappic.app">info@cappic.app</a>
+              If your photo book arrives damaged or defective, please contact Peecho's support team
+              or email us at <a href="mailto:info@cappic.app">info@cappic.app</a>
               so we can assist you in resolving the issue.
               <br />
               To process a complaint, Peecho may require photos of the defect, your order number,
               and the shipping details. Depending on the situation, Peecho may provide a replacement
-              or a refund in accordance with its Buyer Terms and Conditions:
+              or a refund in accordance with its Buyer Terms and Conditions:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>

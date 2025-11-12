@@ -120,7 +120,7 @@ const TermsContent = () => {
               nicht Verkäufer oder Vertragspartner im Sinne des Kaufvertrags.
               <br />
               Es gelten zusätzlich die Allgemeinen Geschäftsbedingungen von Peecho B.V., einsehbar
-              unter:
+              unter:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -136,7 +136,7 @@ const TermsContent = () => {
               Zahlungsanbieter).
               <br />
               Es gelten die Zahlungsbedingungen und Datenschutzbestimmungen von Peecho sowie
-              gegebenenfalls der jeweiligen Zahlungsdienstleister:
+              gegebenenfalls der jeweiligen Zahlungsdienstleister:{' '}
               <a href="https://stripe.com/de/privacy" target="_blank">
                 https://stripe.com/de/privacy
               </a>
@@ -149,7 +149,7 @@ const TermsContent = () => {
               Versanddauer variiert je nach Lieferadresse und Versandart.
               <br />
               Detaillierte Informationen zu Versandzeiten und -kosten finden Sie auf der Webseite
-              von Peecho unter:
+              von Peecho unter:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -175,12 +175,12 @@ const TermsContent = () => {
               Widerrufsrecht nach Beginn der Produktion (§ 312g Abs. 2 Nr. 1 BGB).
               <br />
               Sollte ein Fotobuch fehlerhaft oder beschädigt geliefert werden, können Nutzer:innen
-              sich direkt an den Peecho-Support wenden oder uns unter
+              sich direkt an den Peecho-Support wenden oder uns unter{' '}
               <a href="mailto:info@cappic.app">info@cappic.app</a>
               kontaktieren, damit wir die Reklamation weiterleiten.
               <br />
               Die Bearbeitung von Reklamationen, Ersatzlieferungen oder Erstattungen erfolgt
-              ausschließlich über Peecho gemäß deren Bedingungen:
+              ausschließlich über Peecho gemäß deren Bedingungen:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -394,7 +394,7 @@ const TermsContent = () => {
               <strong>cappic</strong> acts solely as a technical intermediary and is not the seller
               or contractual partner within the meaning of the purchase contract.
               <br />
-              In addition, the Buyer Terms and Conditions of Peecho B.V. apply and can be found at:
+              In addition, the Buyer Terms and Conditions of Peecho B.V. apply and can be found at:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -409,7 +409,7 @@ const TermsContent = () => {
               card, PayPal or other payment services provided via Stripe or partner providers).
               <br />
               The payment terms and privacy policies of Peecho and, where applicable, the respective
-              payment service providers apply:
+              payment service providers apply:{' '}
               <a href="https://stripe.com/privacy" target="_blank">
                 https://stripe.com/privacy
               </a>
@@ -421,8 +421,8 @@ const TermsContent = () => {
               partners. The production time is usually 1–4 working days. Delivery times vary
               depending on the delivery address and shipping method.
               <br />
-              Detailed information about shipping times and costs can be found on Peecho’s website
-              at:
+              Detailed information about shipping times and costs can be found on Peecho's website
+              at:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
@@ -446,13 +446,12 @@ const TermsContent = () => {
               is no right of withdrawal once production has started (Section 312g (2) No. 1 of the
               German Civil Code – BGB).
               <br />
-              If a photo book is delivered defective or damaged, users may contact Peecho’s customer
-              support directly or email us at
-              <a href="mailto:info@cappic.app">info@cappic.app</a>
+              If a photo book is delivered defective or damaged, users may contact Peecho's customer
+              support directly or email us at <a href="mailto:info@cappic.app">info@cappic.app</a>
               so that we can forward the complaint.
               <br />
               All complaints, replacements or refunds are handled exclusively by Peecho in
-              accordance with their terms and conditions:
+              accordance with their terms and conditions:{' '}
               <a href="https://www.peecho.com/buyer-terms-conditions" target="_blank">
                 https://www.peecho.com/buyer-terms-conditions
               </a>
