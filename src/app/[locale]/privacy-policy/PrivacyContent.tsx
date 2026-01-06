@@ -190,8 +190,8 @@ const PrivacyContent = () => {
             </p>
             <h2>4. Tracking und Analysetools</h2>
             <p>
-              Unsere App und Webseite verwenden Google Analytics, um das Nutzerverhalten zu
-              analysieren.
+              Unsere App und Webseite verwenden <strong>Vexo</strong>, um das Nutzerverhalten zu
+              analysieren und die Benutzerfreundlichkeit zu verbessern.
             </p>
             <ul>
               <li>
@@ -199,19 +199,26 @@ const PrivacyContent = () => {
                 zustimmen.
               </li>
               <li>
-                IP-Anonymisierung: Google Analytics speichert keine vollständigen IP-Adressen.
+                Datenschutzkonform: Vexo ist ein datenschutzfreundliches Analysetool, das keine
+                personenbezogenen Daten wie vollständige IP-Adressen speichert.
               </li>
               <li>
-                Erhobene Daten: Besuchte Seiten, Verweildauer, Geräteinformationen, IP-Adressen
-                (gekürzt).
+                Erhobene Daten: Besuchte Seiten, Verweildauer, Geräteinformationen, anonymisierte
+                Nutzungsstatistiken.
               </li>
               <li>
-                Datenübertragung außerhalb der EU: Google kann Daten außerhalb der EU speichern. Es
-                gelten Standardvertragsklauseln (SCCs).
+                Speicherort: Die Datenverarbeitung erfolgt über Vexo in Übereinstimmung mit der
+                DSGVO.
               </li>
               <li>
                 Deaktivierungsmöglichkeit: Tracking kann jederzeit über die Cookie-Einstellungen
-                oder Browser-Plugins deaktiviert werden.
+                oder in den App-Einstellungen deaktiviert werden.
+              </li>
+              <li>
+                Weitere Informationen zur Datenverarbeitung durch Vexo findest du unter:{' '}
+                <a href="https://vexo.co/privacy" target="_blank" rel="noopener noreferrer">
+                  https://vexo.co/privacy
+                </a>
               </li>
             </ul>
 
@@ -566,20 +573,32 @@ const PrivacyContent = () => {
               and with appropriate safeguards in place.
             </p>
             <h2>4. Tracking and Analytics</h2>
-            <p>Our app and website use Google Analytics to analyze user behavior.</p>
+            <p>
+              Our app and website use <strong>Vexo</strong> to analyze user behavior and improve the
+              user experience.
+            </p>
             <ul>
               <li>Opt-in required: Tracking is only activated with explicit user consent.</li>
-              <li>IP anonymization: Google Analytics does not store full IP addresses.</li>
               <li>
-                Collected data: Visited pages, time spent, device information, truncated IP
-                addresses.
+                Privacy-compliant: Vexo is a privacy-focused analytics tool that does not store
+                personal data such as full IP addresses.
               </li>
               <li>
-                Data transfer outside the EU: Google may store data outside the EU under Standard
-                Contractual Clauses (SCCs).
+                Collected data: Visited pages, time spent, device information, anonymized usage
+                statistics.
               </li>
               <li>
-                Opt-out option: Tracking can be disabled via cookie settings or browser plugins.
+                Storage location: Data processing is carried out by Vexo in compliance with GDPR.
+              </li>
+              <li>
+                Opt-out option: Tracking can be disabled at any time via cookie settings or in the
+                app settings.
+              </li>
+              <li>
+                For more information on how Vexo processes data, please visit:{' '}
+                <a href="https://vexo.co/privacy" target="_blank" rel="noopener noreferrer">
+                  https://vexo.co/privacy
+                </a>
               </li>
             </ul>
 
